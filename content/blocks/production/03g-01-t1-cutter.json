@@ -14,30 +14,43 @@ craftTime: 60
 
 recipes: [
   {
-  input: {
-    items: [
-      01a-01-wood
-    ]
-  }
-  output: {
-    items: [
-      01a-03-wood-planks
-    ]
-  }
-  craftTime: 60
+    input: {
+      items: [
+        01a-01-wood
+      ]
+    }
+    output: {
+      items: [
+        01a-03-wood-planks
+      ]
+    }
+    craftTime: 60
   }
   {
-  input: {
-    items: [
-      01a-02-stone
-    ]
+    input: {
+      items: [
+        01a-02-stone
+      ]
+    }
+    output: {
+      items: [
+        01a-04-stone-slabs
+      ]
+    }
+    craftTime: 60
   }
-  output: {
-    items: [
-      01a-04-stone-slabs
-    ]
-  }
-  craftTime: 60
+  {
+    input: {
+      items: [
+        01a-04-stone-slabs
+      ]
+    }
+    output: {
+      items: [
+        01a-05-stone-plates
+      ]
+    }
+    craftTime: 120
 }
 ]
 
