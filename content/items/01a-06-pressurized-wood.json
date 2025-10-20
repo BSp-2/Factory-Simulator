@@ -1,0 +1,9 @@
+type: item
+name: Pressurized wood
+flammability: 0.8
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 2
+color: 997148FF
+hiddenOnPlanets: [serpulo, erekir] 
