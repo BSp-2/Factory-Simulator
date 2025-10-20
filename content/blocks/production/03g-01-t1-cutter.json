@@ -1,4 +1,48 @@
 type: multicraft.MultiCrafter
 name: Tier 1 Cutter
-description: Cuts different resources. 
+description: Cuts different resources into smaller pieces. 
 size: 2
+category: production 
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+craftTime: 60
+
+
+recipes: [
+  {
+  input: {
+    items: [
+      01a-01-wood
+    ]
+  }
+  output: {
+    items: [
+      01a-03-wood-planks
+    ]
+  }
+  craftTime: 60
+  }
+  {
+  input: {
+    items: [
+      01a-02-stone
+    ]
+  }
+  output: {
+    items: [
+      01a-04-stone-slabs
+    ]
+  }
+  craftTime: 60
+}
+]
+
+
+requirements: [
+  01a-01-wood/60
+  01a-02-stone/40
+]
