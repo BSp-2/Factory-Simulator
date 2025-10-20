@@ -1,0 +1,9 @@
+type: item
+name: Stone plates
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+color: ECEBF5FF
+hiddenOnPlanets: [serpulo, erekir] 
