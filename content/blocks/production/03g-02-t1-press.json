@@ -1,7 +1,7 @@
 type: multicraft.MultiCrafter
 name: Tier 1 Press
 description: Apllies huge pressure to items. 
-size: 2
+size: 3
 category: production 
 
 
@@ -31,6 +31,7 @@ recipes: [
 
 
 requirements: [
-  01a-01-wood/60
-  01a-02-stone/40
+  01a-01-wood/100
+  01a-02-stone/60
+  01a-04-stone-slabs/40
 ] 
