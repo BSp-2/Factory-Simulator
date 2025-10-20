@@ -9,5 +9,5 @@ subtitle: blehhhh
 minGameVersion: 152.2
 repo: BSp-2/Factory-Simulator
 dependencies: [
-  "multicrafter-lib"
+  "multi-crafter"
 ] 
