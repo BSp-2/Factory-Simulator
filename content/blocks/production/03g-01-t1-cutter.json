@@ -16,12 +16,12 @@ recipes: [
   {
     input: {
       items: [
-        01a-01-wood
+        01a-01-wood/2
       ]
     }
     output: {
       items: [
-        01a-03-wood-planks
+        01a-03-wood-planks/3
       ]
     }
     craftTime: 60
@@ -29,12 +29,12 @@ recipes: [
   {
     input: {
       items: [
-        01a-02-stone
+        01a-02-stone/2
       ]
     }
     output: {
       items: [
-        01a-04-stone-slabs
+        01a-04-stone-slabs/3
       ]
     }
     craftTime: 60
@@ -42,12 +42,12 @@ recipes: [
   {
     input: {
       items: [
-        01a-04-stone-slabs
+        01a-04-stone-slabs/2
       ]
     }
     output: {
       items: [
-        01a-05-stone-plates
+        01a-05-stone-plates/3
       ]
     }
     craftTime: 120
