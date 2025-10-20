@@ -1,0 +1,9 @@
+type: item
+name: Wood planks
+flammability: 0.4
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+color: C69D71FF
+hiddenOnPlanets: [serpulo, erekir] 
