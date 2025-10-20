@@ -1,9 +1,0 @@
-type: item
-name: Wood
-flammability: 0.4
-explosiveness: 0
-radioactivity: 0
-charge: 0
-hardness: 1
-color: 835137FF
-hiddenOnPlanets: [serpulo, erekir] 
