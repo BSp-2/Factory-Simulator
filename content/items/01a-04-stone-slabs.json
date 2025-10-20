@@ -1,0 +1,9 @@
+type: item
+name: Stone Slabs
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 2
+color: D1D0D9FF
+hiddenOnPlanets: [serpulo, erekir] 
