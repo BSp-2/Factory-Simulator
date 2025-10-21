@@ -6,8 +6,5 @@ description:
 A recreation of a peak roblox game called "factory simulator".\nRequires multicrafter lib to function! 
 '''
 subtitle: blehhhh
-minGameVersion: 146
+minGameVersion: 152.2
 repo: BSp-2/Factory-Simulator
-dependencies: [
-  "multi-crafter"
-] 
