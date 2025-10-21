@@ -15,7 +15,7 @@ craftTime: 120
 recipes: [
   {
     input: {
-      power: 1
+      power: 2
       items: [
         01a-03-wood-planks/2
       ]
@@ -26,6 +26,20 @@ recipes: [
       ]
     }
     craftTime: 120
+  }
+  {
+    input: {
+      power: 3
+      items: [
+        01a-11-copper-ingot/2
+      ]
+    }
+    output: {
+      items: [
+        01a-12-copper-plate/1
+      ]
+    }
+    craftTime: 180
   }
 ]
 
