@@ -15,10 +15,10 @@ craftTime: 120
 recipes: [
   {
     input: {
+      power: 1
       items: [
         01a-03-wood-planks/2
       ]
-      power: 0.5
     }
     output: {
       items: [
