@@ -1,0 +1,9 @@
+type: item
+name: Copper plate
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0.4
+hardness: 3
+color: C75D0EFF
+hiddenOnPlanets: [serpulo, erekir]   
