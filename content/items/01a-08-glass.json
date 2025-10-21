@@ -1,0 +1,9 @@
+type: item
+name: Glass
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+color: F5EFDAFF
+hiddenOnPlanets: [serpulo, erekir] 
