@@ -1,0 +1,9 @@
+type: item
+name: Copper ore
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0.1
+hardness: 2
+color: CEA382FF
+hiddenOnPlanets: [serpulo, erekir] 
