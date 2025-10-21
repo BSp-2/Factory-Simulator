@@ -12,6 +12,11 @@ itemCapacity: 20
 craftTime: 60
 
 
+consumes: {
+  power: 0.5
+}
+
+
 recipes: [
   {
     input: {
@@ -51,7 +56,20 @@ recipes: [
       ]
     }
     craftTime: 120
-}
+  }
+  {
+    input: {
+      items: [
+        01a-08-glass/2
+      ]
+    }
+    output: {
+      items: [
+        01a-09-glass-panes/4
+      ]
+    }
+    craftTime: 180
+  }
 ]
 
 
