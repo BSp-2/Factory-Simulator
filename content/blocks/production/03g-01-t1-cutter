@@ -12,14 +12,10 @@ itemCapacity: 20
 craftTime: 60
 
 
-consumes: {
-  power: 0.5
-}
-
-
 recipes: [
   {
     input: {
+      power: 0.25
       items: [
         01a-01-wood/2
       ]
@@ -33,6 +29,7 @@ recipes: [
   }
   {
     input: {
+      power: 0.5
       items: [
         01a-02-stone/2
       ]
@@ -46,6 +43,7 @@ recipes: [
   }
   {
     input: {
+      power: 0.25
       items: [
         01a-04-stone-slabs/2
       ]
@@ -59,6 +57,7 @@ recipes: [
   }
   {
     input: {
+      power: 1
       items: [
         01a-08-glass/2
       ]
