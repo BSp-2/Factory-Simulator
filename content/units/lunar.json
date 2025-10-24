@@ -10,6 +10,7 @@ commands: [rebuild]
 health: 600
 armor: 10
 speed: 6
+engineSize: 0
 mineWalls: true
 mineGround: true
 isEnemy: false
@@ -36,8 +37,8 @@ vulnerableWithPayloads: false
 engines: [
    {
     x: 0
-    y: -2
-    radius: 2
+    y: -1.5
+    radius: 1
     rotation: -90
    }
  ]
