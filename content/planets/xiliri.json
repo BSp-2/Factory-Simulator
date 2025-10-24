@@ -106,7 +106,7 @@ allowWaveSimulation: false
 clearSectorOnLose: false
 allowWaves: false
 prebuildBase: false
-defaultCore: nucleus
+defaultCore: coreNucleus
 parent: sun
 solarSystem: sun
 launchCandidates: []
