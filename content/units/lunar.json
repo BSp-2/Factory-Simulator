@@ -9,7 +9,7 @@ targetAir: false
 commands: [rebuild]
 health: 600
 armor: 10
-speed: 6
+speed: 5
 engineSize: 0
 mineWalls: true
 mineGround: true
@@ -20,11 +20,11 @@ mineSpeed: 6
 mineTier: 10
 buildSpeed: 2
 accel: 0.09
-drag: 0.03
+drag: 0.05
 lowAltitude: false
 groundLayer: 40
 shadowElevation: 0.1
-rotateSpeed: 10
+rotateSpeed: 8
 itemCapacity: 60
 outlineColor: 202126FF
 waveTrailY: -2
@@ -37,10 +37,22 @@ vulnerableWithPayloads: false
 engines: [
    {
     x: 0
-    y: -2
-    radius: 2
+    y: -3
+    radius: 2.5
     rotation: -90
    }
  ]
  weapons: [
  ] 
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: false
+    color: BF4C86FF
+    effect: missileTrailShort
+    x: 0
+    y: -2
+    interval: 1
+    minVelocity: 0.5
+  }
+]
