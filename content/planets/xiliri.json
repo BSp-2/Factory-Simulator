@@ -21,8 +21,8 @@ mesh: [
     divisions: 5
     seed: 203
     radius: 1
-    color1: 9F9F9FFF
-    color2: 9F9F9FFF
+    color1: 457CB6FF
+    color2: 457CB6FF
     octaves: 3
     persistence: 0
   }
@@ -44,13 +44,13 @@ mesh: [
     planet: xiliri
     seed: 69
     divisions: 3
-    color1: 757575FF
-    color2: 457CB6FF
-    radius: 0.94
+    color1: 9F9F9FFF
+    color2: 757575FF
+    radius: 0.4
     octaves: 4
     persistence: 1
     scale: 0.75
-    mag: 4
+    mag: 5
   }
   {
     //deserts
@@ -99,8 +99,8 @@ updateLighting: true
 sectorSeed: 14513
 bloom: true
 visible: true
-atmosphereColor: CAEDEBFF
-iconColor: CAEDEBFF
+atmosphereColor: 707E9CFF
+iconColor: 707E9CFF
 hasAtmosphere: true
 allowWaveSimulation: false
 clearSectorOnLose: false
