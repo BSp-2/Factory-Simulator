@@ -1,0 +1,126 @@
+localizedName: Xiliri
+description: WIP
+alwaysUnlocked: true
+mesh: [
+  {
+    //grass
+    type: NoiseMesh
+    planet: xiliri
+    divisions: 5
+    radius: 0.975
+    seed: 94
+    color1: 3E8A70FF
+    color2: 4EC79EFF
+    octaves: 3.7
+    persistence: 0.6
+  }
+  {
+    //water
+    type: NoiseMesh
+    planet: xiliri
+    divisions: 5
+    seed: 203
+    radius: 1
+    color1: 303030FF
+    color2: 303030FF
+    octaves: 3
+    persistence: 0
+  }
+  {
+    //snow
+    type: NoiseMesh
+    planet: xiliri
+    divisions: 6
+    seed: 101
+    radius: 0.985
+    color1: CAEDEBFF
+    color2: E1F5F5FF
+    octaves: 3
+    persistence: 1
+  }
+  {
+    //mountains
+    type: NoiseMesh
+    planet: xiliri
+    seed: 69
+    divisions: 5
+    color1: 36464CFF
+    color2: 525F66FF
+    radius: 0.975
+    octaves: 4
+    persistence: 1
+    scale: 0.75
+  }
+  {
+    //deserts
+    type: NoiseMesh
+    planet: xiliri
+    seed: 69
+    divisions: 5
+    color1: 36464CFF
+    color2: 525F66FF
+    radius: 0.975
+    octaves: 4
+    persistence: 1
+    scale: 0.75
+  }
+]
+generator: {
+  octaves: 4
+  persistence: 0.52
+  scale: 46
+  mag: 0.721
+  thresh: 1.18
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+orbitRadius: 36
+sectorSize: 0
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 2
+radius: 1
+minZoom: 1
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.4
+accessible: true
+updateLighting: true
+sectorSeed: 14513
+bloom: true
+visible: true
+atmosphereColor: CAEDEBFF
+iconColor: CAEDEBFF
+hasAtmosphere: true
+allowWaveSimulation: false
+clearSectorOnLose: false
+allowWaves: false
+prebuildBase: false
+defaultCore: nucleus
+parent: sun
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: [
+  "wood",
+  "stone", 
+  "wood-planks", 
+  "stone-slabs", 
+  "stone-plates", 
+  "pressurized-wood", 
+  "sand", 
+  "glass", 
+  "glass-panes", 
+  "copper-ore",
+  "copper-ingot",
+  "copper-plate", 
+  "copper-wire"
+] 
