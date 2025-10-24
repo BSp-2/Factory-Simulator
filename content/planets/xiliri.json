@@ -9,8 +9,8 @@ mesh: [
     divisions: 5
     radius: 0.975
     seed: 94
-    color1: 3E8A70FF
-    color2: 4EC79EFF
+    color1: 5EB80BFF
+    color2: 21AA1AFF
     octaves: 3.7
     persistence: 0.6
   }
@@ -21,8 +21,8 @@ mesh: [
     divisions: 5
     seed: 203
     radius: 1
-    color1: 303030FF
-    color2: 303030FF
+    color1: 9F9F9FFF
+    color2: 9F9F9FFF
     octaves: 3
     persistence: 0
   }
@@ -33,8 +33,8 @@ mesh: [
     divisions: 6
     seed: 101
     radius: 0.985
-    color1: CAEDEBFF
-    color2: E1F5F5FF
+    color1: E6E9ECFF
+    color2: E9F4FCFF
     octaves: 3
     persistence: 1
   }
@@ -43,13 +43,14 @@ mesh: [
     type: NoiseMesh
     planet: xiliri
     seed: 69
-    divisions: 5
-    color1: 36464CFF
-    color2: 525F66FF
-    radius: 0.975
+    divisions: 3
+    color1: 757575FF
+    color2: 457CB6FF
+    radius: 0.94
     octaves: 4
     persistence: 1
     scale: 0.75
+    mag: 4
   }
   {
     //deserts
@@ -57,8 +58,8 @@ mesh: [
     planet: xiliri
     seed: 69
     divisions: 5
-    color1: 36464CFF
-    color2: 525F66FF
+    color1: F2DCA3FF
+    color2: F2D27EFF
     radius: 0.975
     octaves: 4
     persistence: 1
