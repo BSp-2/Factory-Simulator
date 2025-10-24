@@ -16,7 +16,7 @@ isEnemy: false
 hittable: false
 targetable: false
 mineSpeed: 6
-mineTier: 3
+mineTier: 10
 buildSpeed: 2
 accel: 0.09
 drag: 0.03
