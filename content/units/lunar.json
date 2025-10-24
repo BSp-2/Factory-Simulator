@@ -1,3 +1,5 @@
+name: Lunar
+description: A small core drone. Can build and mine. Equipped with everything you could possibly need.
 type: flying
 flying: true
 coreUnitDock: true
