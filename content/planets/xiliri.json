@@ -20,7 +20,7 @@ mesh: [
     planet: xiliri
     divisions: 5
     seed: 203
-    radius: 1
+    radius: 0.99
     color1: 457CB6FF
     color2: 457CB6FF
     octaves: 3
@@ -43,10 +43,10 @@ mesh: [
     type: NoiseMesh
     planet: xiliri
     seed: 69
-    divisions: 3
+    divisions: 6
     color1: 9F9F9FFF
     color2: 757575FF
-    radius: 0.7
+    radius: 0.68
     octaves: 4
     persistence: 1
     scale: 0.75
