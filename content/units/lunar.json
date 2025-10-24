@@ -18,7 +18,7 @@ mineGround: true
 isEnemy: false
 hittable: false
 targetable: false
-mineSpeed: 6
+mineSpeed: 10
 mineTier: 10
 buildSpeed: 2
 accel: 0.09
@@ -27,15 +27,12 @@ lowAltitude: false
 groundLayer: 40
 shadowElevation: 0.1
 rotateSpeed: 8
-itemCapacity: 60
+itemCapacity: 80
 outlineColor: 202126FF
 waveTrailY: -2
 trailColor: BF4C86FF
 trailLength: 8
 fogRadius: 0
-payloadCapacity: 2
-pickupUnits: false
-vulnerableWithPayloads: false
 engines: [
    {
     x: 0
