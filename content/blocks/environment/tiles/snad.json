@@ -1,3 +1,4 @@
 type: Floor
 name: Sand
 itemDrop: sand
+variants: 4
