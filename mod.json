@@ -3,7 +3,8 @@ displayName: Factory Simulator
 author: "Blehhhhious Feline" 
 description:
 '''
-A recreation of a peak roblox game called "factory simulator".\nRequires multicrafter lib to function! 
+A recreation of a peak roblox game called "factory simulator".
+Requires multicrafter lib to function! 
 '''
 subtitle: blehhhh
 minGameVersion: 152.2
