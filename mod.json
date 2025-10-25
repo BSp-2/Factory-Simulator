@@ -8,3 +8,28 @@ A recreation of a peak roblox game called "factory simulator".\nRequires multicr
 subtitle: blehhhh
 minGameVersion: 152.2
 repo: BSp-2/Factory-Simulator
+
+
+contentOrder: [
+  #items
+    wood
+    wood-planks
+    pressurized-wood
+    stone
+    stone-slabs
+    stone-plates
+    sand
+    glass
+    glass-panes
+    copper-ore
+    copper-ingot
+    copper-plate
+    copper-wire
+  #env
+    sttone
+    sttonewall
+    drygras
+    gras
+    snad
+    snadwall
+] 
