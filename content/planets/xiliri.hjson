@@ -116,7 +116,7 @@ cloudMesh: [
    divisions: 6
    color: 4E5255FF
    octaves: 3
-   persistence: 1
+   persistence: 0.8
    scl: 2
    thresh: 0.6
   }
@@ -128,7 +128,7 @@ cloudMesh: [
    divisions: 6
    color: 677277FF
    octaves: 3
-   persistence: 1.2
+   persistence: 0.9
    scl: 1.8
    thresh: 0.6
   }
@@ -140,7 +140,7 @@ cloudMesh: [
    divisions: 6
    color: 828886FF
    octaves: 3
-   persistence: 1.4
+   persistence: 1
    scl: 1.6
    thresh: 0.6
   }
@@ -204,5 +204,6 @@ itemWhitelist: [
   "copper-plate", 
   "copper-wire"
 ] 
+
 
 
