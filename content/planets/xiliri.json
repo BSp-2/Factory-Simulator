@@ -188,7 +188,6 @@ atmosphereRadOut: 0.4
 accessible: true
 updateLighting: true
 sectorSeed: 14513
-bloom: false
 visible: true
 atmosphereColor: D9A362FF
 iconColor: 4C92D9FF
@@ -216,6 +215,7 @@ itemWhitelist: [
   "copper-plate", 
   "copper-wire"
 ] 
+
 
 
 
