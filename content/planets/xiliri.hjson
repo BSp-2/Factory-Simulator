@@ -107,6 +107,44 @@ mesh: [
 	mag: 1.5
   }
 ]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: xiliri
+   speed: 1.21
+   radius: 1.2
+   divisions: 6
+   color: 4E5255FF
+   octaves: 3
+   persistence: 1
+   scl: 2
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: xiliri
+   speed: 1.01
+   radius: 1.22
+   divisions: 6
+   color: 677277FF
+   octaves: 3
+   persistence: 1.2
+   scl: 1.8
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: xiliri
+   speed: 0.891
+   radius: 1.24
+   divisions: 6
+   color: 828886FF
+   octaves: 3
+   persistence: 1.4
+   scl: 1.6
+   thresh: 0.6
+  }
+]
 generator: {
   octaves: 4
   persistence: 0.52
@@ -166,3 +204,4 @@ itemWhitelist: [
   "copper-plate", 
   "copper-wire"
 ] 
+
