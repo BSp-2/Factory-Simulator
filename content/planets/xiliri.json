@@ -189,7 +189,7 @@ accessible: true
 updateLighting: true
 sectorSeed: 14513
 visible: true
-atmosphereColor: 62B5A480
+atmosphereColor: 131154FF
 iconColor: 4C92D9FF
 hasAtmosphere: true
 allowWaveSimulation: false
@@ -215,6 +215,7 @@ itemWhitelist: [
   "copper-plate", 
   "copper-wire"
 ] 
+
 
 
 
