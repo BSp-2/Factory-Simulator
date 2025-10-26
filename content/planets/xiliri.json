@@ -111,10 +111,10 @@ cloudMesh: [
  {
    type: HexSkyMesh
    planet: xiliri
-   speed: 1.21
+   speed: 0.7
    radius: 0.15
-   divisions: 6
-   color: 2E6D8CFF
+   divisions: 5
+   color: 2E6D8CBB
    octaves: 3
    persistence: 0.3
    scl: 0.4
@@ -123,10 +123,10 @@ cloudMesh: [
   {
    type: HexSkyMesh
    planet: xiliri
-   speed: 1.01
-   radius: 0.16
-   divisions: 6
-   color: 6B99B0FF
+   speed: 0.6
+   radius: 0.18
+   divisions: 5
+   color: 6B99B099
    octaves: 3
    persistence: 0.35
    scl: 0.35
@@ -135,10 +135,10 @@ cloudMesh: [
   {
    type: HexSkyMesh
    planet: xiliri
-   speed: 0.891
-   radius: 0.17
-   divisions: 6
-   color: 8DB5C9FF
+   speed: 0.5
+   radius: 0.21
+   divisions: 5
+   color: 8DB5C977
    octaves: 3
    persistence: 0.4
    scl: 0.3
@@ -147,10 +147,10 @@ cloudMesh: [
   {
    type: HexSkyMesh
    planet: xiliri
-   speed: 0.891
-   radius: 0.18
-   divisions: 6
-   color: AECDDCFF
+   speed: 0.4
+   radius: 0.24
+   divisions: 5
+   color: AECDDC55
    octaves: 3
    persistence: 0.45
    scl: 0.25
@@ -189,7 +189,7 @@ accessible: true
 updateLighting: true
 sectorSeed: 14513
 visible: true
-atmosphereColor: D9A362FF
+atmosphereColor: B27636FF
 iconColor: 4C92D9FF
 hasAtmosphere: true
 allowWaveSimulation: false
@@ -215,6 +215,7 @@ itemWhitelist: [
   "copper-plate", 
   "copper-wire"
 ] 
+
 
 
 
