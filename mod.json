@@ -29,8 +29,14 @@ contentOrder: [
   #env
     sttone
     sttonewall
+    sttone-outcrop
     drygras
     gras
     snad
     snadwall
+    snadwater
+    shallowwater
+    waer
+    deepwater
+    coper-ore
 ] 
