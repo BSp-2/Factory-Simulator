@@ -1,0 +1,12 @@
+type: Floor
+name: Sand water
+speedMultiplier: 0.9
+variants: 0
+status: wet
+statusDuration: 120
+liquidDrop: water
+isLiquid: true
+cacheLayer: water
+albedo: 0.9
+supportsOverlay: true
+shallow: true 
