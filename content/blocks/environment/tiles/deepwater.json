@@ -1,0 +1,12 @@
+type: Floor
+name: Deep water
+speedMultiplier: 0.5
+variants: 0
+status: wet
+statusDuration: 300
+liquidDrop: water
+isLiquid: true
+cacheLayer: water
+albedo: 0.9
+supportsOverlay: true
+drownTime: 480
