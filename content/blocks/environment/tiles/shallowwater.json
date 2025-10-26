@@ -1,0 +1,12 @@
+type: Floor
+name: Shallow water
+speedMultiplier: 0.8
+variants: 0
+status: wet
+statusDuration: 180
+liquidDrop: water
+isLiquid: true
+cacheLayer: water
+albedo: 0.9
+supportsOverlay: true
+shallow: true
