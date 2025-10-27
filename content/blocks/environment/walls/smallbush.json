@@ -1,3 +1,4 @@
 type: TreeBlock
 name: Small bush
 variants: 2
+shadowOffset: -1.5
