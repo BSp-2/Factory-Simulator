@@ -1,7 +1,7 @@
 type: Floor
 name: Shallow water
 speedMultiplier: 0.8
-variants: 0
+variants: 4
 status: wet
 statusDuration: 180
 liquidDrop: water
