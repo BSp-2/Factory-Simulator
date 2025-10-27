@@ -198,7 +198,7 @@ allowWaves: false
 prebuildBase: false
 defaultCore: core-nucleus
 parent: ceus
-solarSystem: canis-dratires
+solarSystem: ceus
 launchCandidates: []
 itemWhitelist: [
   "wood",
@@ -215,6 +215,7 @@ itemWhitelist: [
   "copper-plate", 
   "copper-wire"
 ] 
+
 
 
 
