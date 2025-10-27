@@ -12,6 +12,9 @@ repo: BSp-2/Factory-Simulator
 
 
 contentOrder: [
+  #planets 
+    ceus
+    xiliri
   #items
     wood
     wood-planks
