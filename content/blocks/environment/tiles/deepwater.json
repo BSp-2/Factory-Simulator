@@ -11,3 +11,4 @@ albedo: 0.9
 supportsOverlay: true
 drownTime: 480
 liquidMultiplier: 2.5
+mapColor: 244566FF
