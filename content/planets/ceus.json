@@ -7,7 +7,7 @@ mesh: {
     scl: 1
     pow: 2
     mag: 0.5
-    colorScale: 0.7
+    colorScale: 2
     colors: [
         E6F2FFFF
         D4D0EBFF
