@@ -14,7 +14,8 @@ mesh: {
     80FFEAFF
   ]
 }
-accessible: true
+radius: 2.4
+accessible: false
 visible: true
 hasAtmosphere: false
 bloom: true
