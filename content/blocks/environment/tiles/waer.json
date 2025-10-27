@@ -1,7 +1,7 @@
 type: Floor
 name: Water
 speedMultiplier: 0.6
-variants: 0
+variants: 4
 status: wet
 statusDuration: 240
 liquidDrop: water
