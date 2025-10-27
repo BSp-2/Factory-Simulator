@@ -197,7 +197,7 @@ clearSectorOnLose: false
 allowWaves: false
 prebuildBase: false
 defaultCore: core-nucleus
-parent: ceus
+parent: Ceus
 solarSystem: ceus
 launchCandidates: []
 itemWhitelist: [
@@ -215,6 +215,7 @@ itemWhitelist: [
   "copper-plate", 
   "copper-wire"
 ] 
+
 
 
 
