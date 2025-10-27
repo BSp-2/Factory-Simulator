@@ -1,7 +1,7 @@
 localizedName: Ceus
 mesh: {
     type: SunMesh
-    divisions: 4
+    divisions: 5
     octaves: 4
     persistence: 0.6
     scl: 1
