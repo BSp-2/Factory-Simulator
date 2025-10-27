@@ -172,7 +172,7 @@ generator: {
   berylChance: 0
   ferricChance: 0.26
 }
-orbitRadius: 36
+orbitRadius: 8
 sectorSize: 1
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
@@ -215,6 +215,7 @@ itemWhitelist: [
   "copper-plate", 
   "copper-wire"
 ] 
+
 
 
 
