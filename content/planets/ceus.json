@@ -1,18 +1,18 @@
 localizedName: Ceus
 mesh: {
-    type: SunMesh
-    divisions: 5
-    octaves: 4
-    persistence: 0.6
-    scl: 1
-    pow: 2
-    mag: 0.5
-    colorScale: 2
-    colors: [
-        E6F2FFFF
-        D4D0EBFF
-        B2BED9FF
-    ]
+  type: SunMesh
+  divisions: 5
+  octaves: 4
+  persistence: 0.6
+  scl: 1
+  pow: 1
+  mag: 0.5
+  colorScale: 1
+  colors: [
+    B2F2FFFF
+    99FFFFFF
+    80FFEAFF
+  ]
 }
 accessible: true
 visible: true
