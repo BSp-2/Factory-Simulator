@@ -1,7 +1,7 @@
 type: Floor
 name: Sand water
 speedMultiplier: 0.9
-variants: 0
+variants: 4
 status: wet
 statusDuration: 120
 liquidDrop: water
