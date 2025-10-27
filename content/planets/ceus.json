@@ -4,16 +4,15 @@ mesh: {
     divisions: 4
     octaves: 4
     persistence: 0.6
-    radius: 2
     scl: 1
-    pow: 1
+    pow: 2
     mag: 0.5
     colorScale: 1
     colors: [
-        FFD445FF
-        FFAA2BFF
-        FF872BFF
-        FF612CFF
+        F2FFFFFF
+        F2FDFFFF
+        F2F9FFFF
+        F2F4FFFF
     ]
 }
 accessible: false
