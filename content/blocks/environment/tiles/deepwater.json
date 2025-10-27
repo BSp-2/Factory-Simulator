@@ -1,7 +1,7 @@
 type: Floor
 name: Deep water
 speedMultiplier: 0.5
-variants: 0
+variants: 1
 status: wet
 statusDuration: 300
 liquidDrop: water
