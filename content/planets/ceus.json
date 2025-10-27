@@ -10,11 +10,11 @@ mesh: {
     colorScale: 0.7
     colors: [
         E6F2FFFF
-        C3CED9FF
-        A1AAB2FF
+        D4D0EBFF
+        B2BED9FF
     ]
 }
-accessible: false
+accessible: true
 visible: true
 hasAtmosphere: false
 bloom: true
