@@ -1,0 +1,34 @@
+type: StackConveyor
+name: Belt
+description: Transports items in bundles.
+speed: 0.05
+itemCapacity: 5
+health: 100
+category: distribution
+
+
+requirements: [
+  stone-slabs/1
+]   
+
+
+loadEffect: {
+  type: ParticleEffect
+  length: 5
+  particles: 12
+  line: true
+  strokeFrom: 1
+  strokeTo: 0.1
+}
+
+
+unloadEffect: {
+  type: ParticleEffect
+  length: 5
+  particles: 12
+  line: true
+  strokeFrom: 1
+  strokeTo: 0.1
+}
+
+
