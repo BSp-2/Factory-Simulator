@@ -1,0 +1,20 @@
+type: DuctBridge
+name: Belt bridge
+description: Transports items over structures. Twice as slow as a belt. 
+health: 100
+size: 1
+
+
+requirements: [
+  stone-slabs/20
+  wood-planks/10
+] 
+
+
+category: distribution
+squareSprite: true
+range: 4
+speed: 8
+research: belt
+
+
