@@ -2,3 +2,4 @@ type: Prop
 name: Big lilypad
 variants: 3
 breakSound: lilypad
+customShadow: true
