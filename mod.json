@@ -35,8 +35,11 @@ contentOrder: [
     sttonewall
     sttone-outcrop
     drygras
+    drygraswall
     gras
+    graswall
     smallbush
+    largebush
     snad
     snadwall
     snadwater
