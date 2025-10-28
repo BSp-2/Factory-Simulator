@@ -38,6 +38,9 @@ contentOrder: [
     drygraswall
     gras
     graswall
+    pinkflowers
+    orangeflowers
+    blueflowers
     smallbush
     largebush
     snad
@@ -46,5 +49,7 @@ contentOrder: [
     shallowwater
     waer
     deepwater
+    smalllilypad
+    largelilypad
     coper-ore
 ] 
