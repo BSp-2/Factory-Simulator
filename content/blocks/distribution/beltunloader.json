@@ -1,0 +1,18 @@
+type: DirectionalUnloader
+name: Belt unloader
+description: Unloads items to the front from the structures behind itself. Cannot unload from cores. Thrice as slow as a belt. 
+size: 1
+category: distribution
+requirements: [
+ 
+  pressurized-wood/30
+  stone-plates/10
+]
+speed: 12
+
+
+regionRotated1: 1
+allowCoreUnload: false
+
+
+research: beltbridge
