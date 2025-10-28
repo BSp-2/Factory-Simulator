@@ -1,0 +1,4 @@
+type: Prop
+name: Lilypad
+variants: 2
+breakSound: lilypad
