@@ -52,4 +52,16 @@ contentOrder: [
     smalllilypad
     biglilypad
     coper-ore
+  #blocks
+    #drills
+    #distribution 
+      belt
+      beltbridge
+      beltunloader
+    #liquid
+    #power
+    #factories
+    #storage
+  #units
+    lunar
 ] 
