@@ -30,9 +30,9 @@ requirements: [
 ]
 
 
-sparkColor: CFFF70FF
-heatColor: DC7244FF
-boostHeatColor: EDE74CFF
+sparkColor: F2F9FFFF
+heatColor: FFFFFFFF
+boostHeatColor: 295FCCFF
 sparks: 6
 sparkLife: 24
 sparkSpread: 30
