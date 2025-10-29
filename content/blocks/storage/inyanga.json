@@ -1,0 +1,32 @@
+type: CoreBlock
+name: Core: Inyanga
+description: Core of the base. 
+
+
+requirements: [
+  stone-slabs/3600
+  pressurized-wood/2400
+  glass-panes/1800
+  copper-plate/1600
+]
+
+
+isFirstTier: true
+size: 4
+squareSprite: false
+alwaysUnlocked: true
+unitType: lunar
+health: 14400
+armor: 600
+itemCapacity: 4800
+unitCapModifier: 20
+solid: false
+category: effect
+
+
+research: {
+  planet: xiliri
+  root: true
+  name: Malis shenanigans
+  requiresUnlock: false
+}
