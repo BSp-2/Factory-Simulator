@@ -1,0 +1,33 @@
+name: Excavation drill
+description: Excavates small portions of items from the ground. 
+type: Drill
+hasLiquids: true
+size: 2
+itemCapacity: 10
+tier: 10
+drillTime": 240
+drawMineItem: true
+rotateSpeed: 4
+liquidBoostIntensity: 2
+
+
+requirements: [
+  wood-planks/60
+  stone-plates/20
+]
+
+
+consumes: {
+  power: 0.25
+  liquids: {
+    liquids: [
+      water/0.0333333333333333
+    ]
+  optional: true
+  booster: true
+  } 
+} 
+
+
+category: production
+research: pressurebore
