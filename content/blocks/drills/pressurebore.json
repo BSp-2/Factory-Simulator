@@ -4,8 +4,8 @@ description: Mines wall deposits with high pressure.
 range: 3
 tier: 5
 size: 2
-optionalBoostIntensity: 2.5
-drillTime: 30
+optionalBoostIntensity: 2
+drillTime: 240
 ambientSound: drill
 ambientSoundVolume: 0.08
 hasLiquids: true
