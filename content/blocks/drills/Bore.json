@@ -1,0 +1,41 @@
+type: beamDrill
+name: Pressure bore
+description: Mines wall deposits with high pressure. 
+range: 3
+tier: 5
+size: 2
+optionalBoostIntensity: 2.5
+drillTime: 30
+ambientSound: drill
+ambientSoundVolume: 0.08
+hasLiquids: true
+
+
+consumes: {
+  power: 0.15
+  liquids: {
+    liquids: [
+      water/0.016666666666666666666666
+    ]
+    optional: true
+    booster: true
+  }
+}
+category: production
+
+
+requirements: [
+  wood/40
+  stone/30
+]
+
+
+sparkColor: CFFF70FF
+heatColor: DC7244FF
+boostHeatColor: EDE74CFF
+sparks: 6
+sparkLife: 24
+sparkSpread: 30
+
+
+research: inyanga
