@@ -1,0 +1,4 @@
+type: TreeBlock
+name: Dark tree
+shadowOffset: -3
+itemDrop: wood
