@@ -1,0 +1,31 @@
+type: ConsumeGenerator
+name: Steam engine
+description: Runs on steam. Requires a lot of it, but will still work even if supplied with insufficient amounts. 
+size: 4
+category: power
+squareSprite: false
+
+
+requirements: [
+  stone-slabs/180
+  stone-plates/120
+  pressurized-wood/160
+  glass-panes/80
+]
+
+
+consumes: {
+  liquids: [
+ 	  steam/20
+  ]
+}
+
+
+powerProduction: 30
+
+
+ambientSound: smelter
+ambientSoundVolume: 0.03
+
+
+research: inyanga
