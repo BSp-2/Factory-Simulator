@@ -2,7 +2,7 @@ type: PowerNode
 name: Powerstation
 description: Transmits power over medium distances. Can connect to a single structure, but can supply structures next to it without connections.
 fogRadius: 2.5
-laserRange: 30
+laserRange: 24
 health: 240
 maxNodes: 1
 size: 3
