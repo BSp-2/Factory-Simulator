@@ -1,4 +1,6 @@
-type: TreeBlock
+type: TallBlock
 name: Small bush
 variants: 2
-shadowOffset: -1.5
+clipSize: 64
+shadowAlpha: 0.5
+shadowOffset: -1
