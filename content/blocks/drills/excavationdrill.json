@@ -5,7 +5,7 @@ hasLiquids: true
 size: 2
 itemCapacity: 10
 tier: 10
-drillTime": 240
+drillTime: 240
 drawMineItem: true
 rotateSpeed: 4
 liquidBoostIntensity: 2
