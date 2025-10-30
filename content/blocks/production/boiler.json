@@ -42,7 +42,7 @@ requirements: [
 
 
 drawer: {
-  type: multi
+  type: DrawMulti
   drawers: [
 	{
 	  type: DrawRegion
