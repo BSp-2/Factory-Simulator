@@ -17,7 +17,6 @@ drillMultipliers: {
 
 
 consumes: {
-  power: 0.15
   liquids: {
     liquids: [
       steam/0.016666666666666666666666
