@@ -1,0 +1,21 @@
+type: DirectionLiquidBridge
+name: Conduit bridge
+description: Allows for liquid to go over terrain/structures. 
+size: 1
+health: 100
+range: 5
+solid: false
+
+
+requirements: [
+  stone-slabs/30
+  glass-panes/15
+]
+
+
+category: liquid
+squareSprite: true
+
+
+
+research: conduitjunction
