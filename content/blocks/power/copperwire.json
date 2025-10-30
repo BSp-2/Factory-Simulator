@@ -1,0 +1,22 @@
+type: ArmoredConveyor
+name: Copper wire
+description: Transfers power between buildings. Consumes power due to heating.
+conductivePower: true
+health: 100
+hasPower: true
+outputsPower: true
+junctionReplacement: imaginary-junction
+bridgeReplacement: imaginary-bridge
+liquidPressure: 0
+liquidCapacity: 0
+consumes: {
+  power/0.0166666666666666666666
+} 
+requirements: [
+  copper-wire/1
+]
+category: power
+research: powerstation
+acceptsItems: false
+instantTransfer: false
+solid: false
