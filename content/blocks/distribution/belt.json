@@ -8,7 +8,8 @@ category: distribution
 
 
 requirements: [
-  stone-slabs/2
+  wood/2
+  stone/1
 ]   
 
 
