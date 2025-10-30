@@ -11,6 +11,11 @@ ambientSoundVolume: 0.08
 hasLiquids: true
 
 
+drillMultipliers: {
+  wood: 2
+}
+
+
 consumes: {
   power: 0.15
   liquids: {
