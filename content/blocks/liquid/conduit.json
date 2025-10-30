@@ -1,0 +1,26 @@
+type: ArmoredConduit
+name: Conduit
+description: Transports liquids under high pressure. 
+category: liquid
+
+
+requirements: [
+  stone-slabs/2
+  glass/1
+]
+
+
+health: 100
+leaks: false
+
+
+junctionReplacement: conduitjunction
+rotBridgeReplacement: conduitbridge
+
+
+underBullets: true
+liquidPressure: 5
+liquidCapacity: 30
+
+
+research: mechanicalpump
