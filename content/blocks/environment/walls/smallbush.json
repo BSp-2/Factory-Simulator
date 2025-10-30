@@ -1,6 +1,6 @@
-type: TallBlock
+type: Prop
 name: Small bush
 variants: 2
-clipSize: 64
 shadowAlpha: 0.5
 shadowOffset: -1
+breakSound: lilypad
