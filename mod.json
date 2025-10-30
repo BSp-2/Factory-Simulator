@@ -66,7 +66,6 @@ contentOrder: [
       beltunloader
     #liquid
       mechanicalpump
-      lconduit
       conduitjunction
       conduitbridge
       conduitdistributor
