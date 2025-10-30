@@ -3,3 +3,4 @@ name: Big lilypad
 variants: 3
 breakSound: lilypad
 customShadow: true
+shadowAlpha: 0.5
