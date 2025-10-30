@@ -30,6 +30,8 @@ contentOrder: [
     copper-ingot
     copper-plate
     copper-wire
+  #liquids
+    steam
   #env
     sttone
     sttonewall
@@ -63,8 +65,17 @@ contentOrder: [
       beltbridge
       beltunloader
     #liquid
+      lconduit
+      conduitjunction
+      conduitbridge
+      conduitdistributor
     #power
+      powerstation
+      copperwire 
+      burnergenerator
+      steamengine
     #factories
+      boiler
     #storage
       inyanga
   #units
