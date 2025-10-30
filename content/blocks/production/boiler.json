@@ -41,4 +41,32 @@ requirements: [
 ]
 
 
+drawer: {
+  type: multi
+  drawers: [
+	{
+	  type: DrawRegion
+	  suffix: -bottom
+	} 
+	{
+	  type: DrawLiquidTile
+	  drawLiquid: water
+	  padding: 3
+	  alpha: 0.8
+    } 
+    {
+	  type: DrawCrucibleFlame
+	}
+    {
+	  type: DrawDefault
+	}
+    {
+	  type: DrawGlowRegion
+	  suffix: -glow
+	  glowScale: 10
+	}
+  ] 
+} 
+  
+
 research: inyanga
