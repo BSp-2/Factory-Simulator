@@ -10,7 +10,7 @@ bridgeReplacement: imaginary-bridge
 liquidPressure: 0
 liquidCapacity: 0
 consumes: {
-  power/0.0166666666666666666666
+  power: 0.0166666666666666666666
 } 
 requirements: [
   copper-wire/1
