@@ -201,20 +201,23 @@ parent: ceus
 solarSystem: ceus
 launchCandidates: []
 itemWhitelist: [
-  "wood",
-  "stone", 
-  "wood-planks", 
-  "stone-slabs", 
-  "stone-plates", 
-  "pressurized-wood", 
-  "sand", 
-  "glass", 
-  "glass-panes", 
-  "copper-ore",
-  "copper-ingot",
-  "copper-plate", 
-  "copper-wire"
+  water
+  steam
+  wood
+  stone 
+  wood-planks
+  stone-slabs
+  stone-plates
+  pressurized-wood
+  sand
+  glass
+  glass-panes
+  copper-ore
+  copper-ingot
+  copper-plate
+  copper-wire
 ] 
+
 
 
 
