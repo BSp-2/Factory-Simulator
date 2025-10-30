@@ -1,0 +1,44 @@
+type: GenericCrafter
+name: Boiler
+description: Boils water. Creates steam. 
+category: crafting
+size: 3
+
+
+hasLiquids: true
+hasItems: true
+squareSprite: false
+
+
+liquidCapacity: 60
+itemCapacity: 20
+
+
+outputLiquids: [
+    steam/5
+]
+
+
+consumes: {
+	liquids: [
+        water/2.5
+    ]
+  items: [
+    wood/1
+  ]
+}
+craftTime: 180
+
+
+ambientSound: steam
+ambientSoundVolume: 0.08
+
+
+requirements: [
+  stone/70
+  stone-plates/40
+  glass-panes20
+]
+
+
+research: inyanga
