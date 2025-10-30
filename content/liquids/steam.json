@@ -1,0 +1,14 @@
+type: Liquid
+name: Steam
+description: Gasified water. Can be used to create pressure. 
+color: ffffffff
+explosiveness: 0
+flammability: 0
+heatCapacity: 0
+viscosity: 0
+temperature: 1
+boilPoint: -4
+gasColor: ffffffff
+gas: true
+blockReactive: false
+hiddenOnPlanets: [serpulo, erekir]
