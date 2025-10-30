@@ -1,0 +1,19 @@
+type: Pump
+name: Mechanical pump
+description: Slowly pumps out liquids from liquid tiles. Works on its own.
+size: 3
+category: liquid
+squareSprite: false
+
+
+requirements: [
+  wood-planks/50
+  stone-slabs/40
+  glass/10
+]
+
+
+pumpAmount: 0.138888888888888888
+
+
+research: inyanga
