@@ -43,6 +43,8 @@ contentOrder: [
     blueflowers
     smallbush
     largebush
+    darktree
+    lighttree
     snad
     snadwall
     snadwater
@@ -54,6 +56,8 @@ contentOrder: [
     coper-ore
   #blocks
     #drills
+      pressurebore
+      excavationdrill
     #distribution 
       belt
       beltbridge
