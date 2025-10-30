@@ -37,7 +37,7 @@ ambientSoundVolume: 0.08
 requirements: [
   stone/70
   stone-plates/40
-  glass-panes20
+  glass-panes/20
 ]
 
 
