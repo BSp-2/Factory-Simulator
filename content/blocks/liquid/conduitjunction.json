@@ -1,0 +1,16 @@
+type: LiquidJunction
+name: Conduit junction
+description: Allows for crossing of 2 conduits. 
+solid: false
+category: liquid
+squareSprite: true
+
+
+requirements: [
+  stone-slabs/10
+  glass/5
+]
+
+
+
+research: lconduit
