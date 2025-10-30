@@ -1,0 +1,24 @@
+type: PowerNode
+name: Powerstation
+description: Transmits power over medium distances. Can connect to a single structure, but can supply structures next to it without connections.
+fogRadius: 2.5
+laserRange: 30
+health: 240
+maxNodes: 1
+size: 3
+squareSprite: false
+category: power
+
+
+requirements: [
+  stone-plates/120
+  copper-ingot/40
+]
+
+
+laserScale: 3
+laserColor1: 267061FF
+laserColor2: 62B5A4FF
+
+
+research: steamengine
