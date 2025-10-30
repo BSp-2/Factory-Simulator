@@ -20,7 +20,7 @@ consumes: {
   power: 0.15
   liquids: {
     liquids: [
-      water/0.016666666666666666666666
+      steam/0.016666666666666666666666
     ]
     optional: true
     booster: true
