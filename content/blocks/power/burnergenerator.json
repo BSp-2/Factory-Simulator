@@ -1,0 +1,27 @@
+type: ConsumeGenerator
+name: Burner generator
+description: Basic ignition generator. Burns items in exchange for a small amount of power.
+size: 2
+category: power
+squareSprite: false
+
+
+requirements: [
+  stone/40
+  wood/20
+]
+
+
+consumes: {
+  itemFlammable: {}
+}
+
+
+powerProduction: 2
+itemDuration: 60
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.03
+
+
+research: inyanga
