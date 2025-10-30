@@ -17,7 +17,7 @@ consumes: {
 }
 
 
-powerProduction: 2
+powerProduction: 4
 itemDuration: 60
 generateEffect: generatespark
 ambientSound: smelter
