@@ -18,10 +18,9 @@ requirements: [
 
 
 consumes: {
-  power: 0.25
   liquids: {
     liquids: [
-      water/0.0333333333333333
+      water/0.5
     ]
   optional: true
   booster: true
