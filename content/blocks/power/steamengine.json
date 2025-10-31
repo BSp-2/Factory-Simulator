@@ -37,10 +37,14 @@ drawer: {
     suffix: -bottom
     }
     {
+    type: drawLiquidTile
+    drawLiquid: steam
+    padding: 3
+    alpha: 0.7
+    }
+    {
     type: DrawPlasma
     plasmas: 4
-    plasma1: ddddddff
-    plasma2: aaaaaaff
     }
     {
     type: DrawDefault
