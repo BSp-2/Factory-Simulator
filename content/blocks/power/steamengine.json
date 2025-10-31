@@ -25,8 +25,28 @@ consumes: {
 powerProduction: 30
 
 
-ambientSound: smelter
+ambientSound: steam
 ambientSoundVolume: 0.03
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawPlasma
+    plasmas: 4
+    plasma1: ddddddff
+    plasma2: aaaaaaff
+    }
+    {
+    type: DrawDefault
+    }
+  ] 
+} 
 
 
 research: burnergenerator
