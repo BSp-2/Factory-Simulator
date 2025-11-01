@@ -10,7 +10,7 @@ hasItems: true
 squareSprite: false
 
 
-liquidCapacity: 600
+liquidCapacity: 100
 itemCapacity: 20
 
 
