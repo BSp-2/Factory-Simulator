@@ -12,6 +12,7 @@ requirements: [
 
 health: 100
 leaks: false
+botColor: 252426FF
 
 
 junctionReplacement: conduitjunction
