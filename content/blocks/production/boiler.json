@@ -15,13 +15,13 @@ itemCapacity: 20
 
 
 outputLiquids: [
-    steam/2.5
+    steam/0.8
 ]
 
 
 consumes: {
 	liquids: [
-        water/1.25
+        water/0.4
     ]
   items: [
     wood/1
