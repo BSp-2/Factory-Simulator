@@ -19,7 +19,7 @@ drillMultipliers: {
 consumes: {
   liquids: {
     liquids: [
-      steam/0.1666666666666666666
+      steam/0.06666666666666666666
     ]
     optional: true
     booster: true
