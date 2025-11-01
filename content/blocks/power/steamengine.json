@@ -17,7 +17,7 @@ requirements: [
 
 consumes: {
   liquids: [
- 	  steam/10
+ 	  steam/0.8
   ]
 }
 
