@@ -1,6 +1,7 @@
 type: LiquidJunction
 name: Conduit junction
-description: Allows for crossing of 2 conduits. 
+description: Works as a conduit. 
+details: There are no conduits in this mod due to them being heavily fps dependant. junctions suffer way less from low fps. 
 solid: false
 category: liquid
 squareSprite: true
