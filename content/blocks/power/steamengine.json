@@ -4,7 +4,7 @@ description: Runs on steam. Requires a lot of it, but will still work even if su
 size: 4
 category: power
 squareSprite: false
-liquidCapacity: 2400
+liquidCapacity: 360
 
 
 requirements: [
