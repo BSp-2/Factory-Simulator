@@ -63,7 +63,7 @@ contentOrder: [
     #distribution 
       belt
       beltbridge
-      beltunloader1
+      belt-unloader
     #liquid
       mechanicalpump
       conduitjunction
