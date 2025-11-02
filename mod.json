@@ -79,6 +79,7 @@ contentOrder: [
       boiler
     #storage
       inyanga
+      lcontainer
   #units
     lunar
 ] 
