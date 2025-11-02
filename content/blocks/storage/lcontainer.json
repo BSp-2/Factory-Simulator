@@ -1,0 +1,13 @@
+type: StorageBlock
+size: 2
+solid: false
+scaledHealth: 40
+name: Container
+description: Increases core storage when placed next to it. 
+itemCapacity: 300
+category: effect
+requirements: [
+  stone-slabs/100
+  wood-planks/20
+]
+squareSprite: false
