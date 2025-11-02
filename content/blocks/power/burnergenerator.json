@@ -32,7 +32,11 @@ drawer: {
     suffix: -bottom
     }
     {
+    type: DrawCrucibleFlame
+    }
+    {
     type: DrawArcSmelt
+    particleRad: 5
     }
     {
     type: DrawDefault
