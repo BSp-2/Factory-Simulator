@@ -24,4 +24,26 @@ ambientSound: smelter
 ambientSoundVolume: 0.03
 
 
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawArcSmelt
+    }
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawGlowRegion
+    suffix: -glow
+    glowScale: 10
+    }
+  ]
+}
+
+
 research: inyanga
