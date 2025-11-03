@@ -17,8 +17,8 @@ requirements: [
 
 
 laserScale: 1.5
-laserColor1: 62B5A4FF
-laserColor2: 267061FF
+laserColor1: BF4C86FF
+laserColor2: 731745FF
 
 
 research: steamengine
