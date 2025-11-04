@@ -36,7 +36,7 @@ requirements: [
 
 sparkColor: F2F9FFFF
 heatColor: FFFFFFFF
-boostHeatColor: 295FCCFF
+boostHeatColor: DCC6C6FF
 sparks: 6
 sparkLife: 24
 sparkSpread: 30
