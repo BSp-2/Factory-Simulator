@@ -2,13 +2,13 @@ name: Excavation drill
 description: Excavates small portions of items from the ground. 
 type: Drill
 hasLiquids: true
-size: 2
-itemCapacity: 10
+size: 3
+itemCapacity: 20
 tier: 10
-drillTime: 240
+drillTime: 540
 drawMineItem: true
 rotateSpeed: 4
-liquidBoostIntensity: 2
+liquidBoostIntensity: 1
 
 
 requirements: [
