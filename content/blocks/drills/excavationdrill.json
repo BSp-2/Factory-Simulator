@@ -9,11 +9,14 @@ drillTime: 540
 drawMineItem: true
 rotateSpeed: 4
 liquidBoostIntensity: 1
+drawRim: true
+heatColor: BF4C86
 
 
 requirements: [
   wood-planks/60
-  stone-plates/20
+  pressurized-wood/40
+  stone-plates/40
 ]
 
 
