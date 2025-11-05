@@ -4,3 +4,4 @@ variants: 2
 breakSound: lilypad
 customShadow: true
 shadowAlpha: 0.5
+shadowOffset: -3
