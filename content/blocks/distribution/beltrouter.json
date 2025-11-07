@@ -1,0 +1,16 @@
+type: DuctRouter
+name: Belt router
+description: Distributes items equally in 3 directions. Can act as a sorter.
+regionRotated1: 1
+size: 1
+health: 100
+requirements: [
+	stone/10
+  wood/5
+]
+category: distribution
+squareSprite: true
+
+
+
+research: beltbridge
