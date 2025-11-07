@@ -1,7 +1,7 @@
 type: StackConveyor
 name: Belt
 description: Transports items in bundles.
-speed: 0.05
+speed: 0.025
 itemCapacity: 5
 health: 100
 category: distribution
