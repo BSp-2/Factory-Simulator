@@ -74,10 +74,10 @@ contentOrder: [
       conduitdistributor
     #factories
       boiler
-      cutter
-      press
-      furnace
-      extruder
+      cutter1
+      press1
+      furnace1
+      extruder1
     #storage
       inyanga
       lcontainer
