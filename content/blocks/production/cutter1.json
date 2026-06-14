@@ -1,4 +1,4 @@
-type: multicraft.MultiCrafter
+type: MultiCrafter
 name: Tier 1 Cutter
 description: Cuts different resources into smaller pieces. 
 size: 2
@@ -12,59 +12,67 @@ itemCapacity: 20
 craftTime: 60
 
 
-recipes: [
+jsonRecipes: [
   {
+    name: Wood Planks
     input: {
-      power: 0.25
       items: [
-        01a-01-wood/2
+        wood/2
       ]
     }
     output: {
       items: [
-        01a-03-wood-planks/3
+        wood-planks/3
       ]
     }
     craftTime: 60
+    unlocked: true
   }
   {
+    name: Stone Slabs
     input: {
-      power: 0.5
       items: [
-        01a-02-stone/2
+        stone/2
       ]
     }
     output: {
       items: [
-        01a-04-stone-slabs/3
+        stone-slabs/3
       ]
     }
     craftTime: 60
+    unlocked: true
   }
   {
+    name: Stone Plates
     input: {
-      power: 0.25
+      liquids: [
+        lwater/0.25
+      ] 
       items: [
-        01a-04-stone-slabs/2
+        stone-slabs/2
       ]
     }
     output: {
       items: [
-        01a-05-stone-plates/3
+        stone-plates/3
       ]
     }
     craftTime: 120
   }
   {
+    name: Glass Panes
     input: {
-      power: 1
+      liquids: [
+        lwater/0.5
+      ]
       items: [
-        01a-08-glass/2
+        glass/2
       ]
     }
     output: {
       items: [
-        01a-09-glass-panes/4
+        glass-panes/4
       ]
     }
     craftTime: 180
@@ -73,6 +81,6 @@ recipes: [
 
 
 requirements: [
-  01a-01-wood/60
-  01a-02-stone/40
+  wood/60
+  stone/40
 ]
