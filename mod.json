@@ -1,14 +1,14 @@
 name: factory-sim
 displayName: The Factory Must Grow
-author: "Blehhhhious Feline" 
+author: "Thinkerdoodle" 
 description:
 '''
-A recreation of a peak roblox game called "factory simulator".
-Will require some sort of multicrafter libs later on. 
+A recreation of a game called Factory Simulator.
+Requires multicrafter lib. 
 Currently in early dev. Not intended to be played just yet. 
 '''
-subtitle: blehhhh
-minGameVersion: 152.2
+subtitle: ?ploo
+minGameVersion: 158.1
 repo: BSp-2/Factory-Simulator
 
 
@@ -72,13 +72,12 @@ contentOrder: [
       conduitjunction
       conduitbridge
       conduitdistributor
-    #power
-      powerstation
-      copperwire 
-      burnergenerator
-      steamengine
     #factories
       boiler
+      cutter
+      press
+      furnace
+      extruder
     #storage
       inyanga
       lcontainer
