@@ -47,7 +47,7 @@ jsonRecipes: [
     name: Stone Plates
     input: {
       liquids: [
-        lwater/0.25
+        water/0.25
       ] 
       items: [
         stone-slabs/2
@@ -64,7 +64,7 @@ jsonRecipes: [
     name: Glass Panes
     input: {
       liquids: [
-        lwater/0.5
+        water/0.5
       ]
       items: [
         glass/2
