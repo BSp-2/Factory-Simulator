@@ -16,5 +16,4 @@ squareSprite: true
 range: 4
 speed: 2
 research: belt
-
-
+requiresUnlock: false
