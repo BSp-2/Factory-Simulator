@@ -1,0 +1,67 @@
+type: MultiCrafter
+name: Tier 1 Furnace
+description: Melts different resources into refined items. 
+size: 2
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+
+
+jsonRecipes: [
+  {
+    name: copperingotrecipe
+    input: {
+      items: [
+        copper-ore/5
+      ]
+      liquids: [
+        water/1
+      ]
+    }
+    output: {
+      items: [
+        wood-planks/5
+      ]
+    }
+    craftTime: 300
+    unlocked: true
+  }
+  {
+    name: glassrecipe
+    input: {
+      items: [
+        sand/5
+      ]
+    }
+    output: {
+      items: [
+        glass/3
+      ]
+    }
+    craftTime: 300
+    unlocked: true
+  }
+]
+
+
+requirements: [
+  wood/100
+  stone/50
+  stone-plates/25
+]
+
+
+research: {
+  parent: grassplains
+  objectives: [
+    pressurized-wood
+    stone-plates
+  ] 
+} 
+researchCost: [
+  wood/0
+] 
