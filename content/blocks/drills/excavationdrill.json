@@ -34,6 +34,7 @@ consumes: {
 category: production
 research: {
   parent: pressurebore
+  requiresUnlock: false
   objectives: [
     pressurized-wood
     stone-plates
