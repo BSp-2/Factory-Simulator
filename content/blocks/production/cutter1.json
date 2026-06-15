@@ -22,7 +22,7 @@ jsonRecipes: [
     }
     output: {
       items: [
-        wood-planks/3
+        wood-planks/4
       ]
     }
     craftTime: 120
@@ -37,7 +37,7 @@ jsonRecipes: [
     }
     output: {
       items: [
-        stone-slabs/3
+        stone-slabs/4
       ]
     }
     craftTime: 120
@@ -55,7 +55,7 @@ jsonRecipes: [
     }
     output: {
       items: [
-        stone-plates/3
+        stone-plates/4
       ]
     }
     craftTime: 120
