@@ -19,3 +19,4 @@ squareSprite: true
 
 
 research: conduitjunction
+requiresUnlock: false
