@@ -7,4 +7,9 @@ charge: 0
 hardness: 1
 color: 835137FF
 hiddenOnPlanets: [serpulo, erekir] 
-research: grassplains
+research: {
+  parent: grassplains
+  objectives: [
+    wood
+  ]
+} 
