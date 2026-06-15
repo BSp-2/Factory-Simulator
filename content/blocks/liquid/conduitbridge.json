@@ -20,3 +20,6 @@ squareSprite: true
 
 research: conduitjunction
 requiresUnlock: false
+researchCost: [
+  wood/0
+]
