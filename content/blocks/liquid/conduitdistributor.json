@@ -16,3 +16,6 @@ requirements: [
 liquidPadding: 2
 research: conduitbridge
 requiresUnlock: false
+researchCost: [
+  wood/0
+]
