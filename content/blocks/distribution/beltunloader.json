@@ -8,7 +8,7 @@ requirements: [
   pressurized-wood/30
   stone-plates/10
 ]
-speed: 12
+speed: 4
 
 
 regionRotated1: 1
