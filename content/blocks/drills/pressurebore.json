@@ -44,6 +44,7 @@ sparkSpread: 30
 
 research: {
   parent: grassplains
+  requiresUnlock: false
   objectives: [
     wood
     stone
