@@ -7,3 +7,9 @@ charge: 0
 hardness: 2
 color: 997148FF
 hiddenOnPlanets: [serpulo, erekir] 
+research: {
+  parent: wood-planks
+  objectives: [
+    pressurized-wood
+  ]
+} 
