@@ -40,3 +40,6 @@ research: {
     stone-plates
   ]
 } 
+researchCost: [
+  wood/0
+]
