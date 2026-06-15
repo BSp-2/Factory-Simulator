@@ -23,7 +23,7 @@ requirements: [
 consumes: {
   liquids: {
     liquids: [
-      water/0.03333333333333333333
+      water/0.3333333333333333333
     ]
   optional: true
   booster: true
@@ -32,4 +32,10 @@ consumes: {
 
 
 category: production
-research: pressurebore
+research: {
+  parent: pressurebore
+  objectives: [
+    pressurized-wood
+    stone-plates
+  ]
+} 
