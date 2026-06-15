@@ -34,7 +34,7 @@ jsonRecipes: [
         copper-ingot/2
       ]
       liquids: [
-        water/0.15
+        water/0.75
       ]
     } 
     output: {
