@@ -1,51 +1,60 @@
-type: multicraft.MultiCrafter
+type: MultiCrafter
 name: Tier 1 Press
 description: Apllies huge pressure to items. 
 size: 3
-category: production 
+category: crafting
 
 
 hasItems: true
 hasPower: true
 squareSprite: false
 itemCapacity: 20
-craftTime: 120
 
 
-recipes: [
+jsonRecipes: [
   {
+    name: pressurizedwoodrecipe
     input: {
-      power: 2
       items: [
-        01a-03-wood-planks/2
+        wood-planks/2
       ]
     }
     output: {
       items: [
-        01a-06-pressurized-wood/1
+        pressurized-wood/2
       ]
     }
     craftTime: 120
+    unlocked: true
   }
   {
+    name: copperplaterecipe
     input: {
-      power: 3
       items: [
-        01a-11-copper-ingot/2
+        copper-ingot/2
       ]
-    }
+      liquids: [
+        water/0.15
+      ]
     output: {
       items: [
-        01a-12-copper-plate/1
-      ]
-    }
-    craftTime: 180
-  }
-]
+        copper-plate/2
+      ] 
+    } 
+    craftTime: 120
+    unlocked: true
+  } 
+] 
 
 
 requirements: [
   01a-01-wood/100
   01a-02-stone/60
   01a-04-stone-slabs/40
-] 
+]
+research: {
+  parent: cutter1
+}
+researchCost: [
+  wood/0
+]
