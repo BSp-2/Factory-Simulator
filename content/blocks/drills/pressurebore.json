@@ -50,3 +50,6 @@ research: {
     stone
   ] 
 }
+researchCost: [
+  wood/0
+]
