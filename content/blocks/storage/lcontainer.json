@@ -13,7 +13,7 @@ requirements: [
 ]
 squareSprite: false
 research: {
-  parent: inyanga
+  parent: grassplains
   requiresUnlock: fasle
   objectives: [
     stone-slabs
