@@ -2,7 +2,7 @@ captureWave: 1
 planet: xiliri
 sector: 0
 research: {
-  planet: inyanga
+  parent: inyanga
   requiresUnlock: false
 } 
 difficulty: 1
