@@ -16,3 +16,4 @@ allowCoreUnload: false
 
 
 research: beltbridge
+requiresUnlock: false
