@@ -1,7 +1,0 @@
-type: Prop
-name: Large bush
-variants: 2
-shadowAlpha: 0.5
-shadowOffset: -1.5
-breakSound: lilypad
-customShadow: true
