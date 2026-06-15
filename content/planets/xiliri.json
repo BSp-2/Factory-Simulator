@@ -193,7 +193,7 @@ atmosphereColor: 131154FF
 iconColor: 4C92D9FF
 hasAtmosphere: true
 allowWaveSimulation: false
-clearSectorOnLose: false
+clearSectorOnLose: true
 allowWaves: false
 prebuildBase: false
 defaultCore: inyanga
