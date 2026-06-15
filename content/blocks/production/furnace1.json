@@ -24,7 +24,7 @@ jsonRecipes: [
     }
     output: {
       items: [
-        wood-planks/5
+        copper-ingot/5
       ]
     }
     craftTime: 300
