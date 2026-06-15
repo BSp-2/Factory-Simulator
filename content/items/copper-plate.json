@@ -7,3 +7,9 @@ charge: 0.4
 hardness: 3
 color: C75D0EFF
 hiddenOnPlanets: [serpulo, erekir]   
+research: {
+  parent: copper-ingot
+  objectives: [
+    copper-plate
+  ]
+} 
