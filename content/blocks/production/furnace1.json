@@ -51,7 +51,7 @@ jsonRecipes: [
 requirements: [
   wood/100
   stone/50
-  stone-plates/25
+  pressurized-wood/25
 ]
 
 
@@ -59,7 +59,7 @@ research: {
   parent: press1
   objectives: [
     pressurized-wood
-    stone-plates
+    stone-slabs
   ] 
 } 
 researchCost: [
