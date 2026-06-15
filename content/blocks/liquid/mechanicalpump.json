@@ -16,4 +16,9 @@ requirements: [
 pumpAmount: 0.222222222222222222222222
 
 
-research: inyanga
+research: {
+  parent: grassplains
+  objectives: [
+    glass
+  ]
+}
