@@ -21,3 +21,6 @@ research: {
     copper-ingot
   ] 
 } 
+researchCost: [
+  wood/0
+]
