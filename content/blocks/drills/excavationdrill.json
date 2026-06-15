@@ -8,7 +8,7 @@ tier: 10
 drillTime: 540
 drawMineItem: true
 rotateSpeed: -1
-liquidBoostIntensity: 1.5
+liquidBoostIntensity: 2
 drawRim: true
 heatColor: BF4C86
 hardnessDrillMultiplier: 0
