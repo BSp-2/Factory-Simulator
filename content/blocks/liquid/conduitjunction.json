@@ -15,3 +15,6 @@ requirements: [
 
 research: lconduit
 requiresUnlock: false
+researchCost: [
+  wood/0
+]
