@@ -25,6 +25,8 @@ category: effect
 
 
 research: {
-  parent: grassplains
+  planet: xiliri
+  root: true
+  name: Plooeys Mental Asylum
   requiresUnlock: false
-}
+} 
