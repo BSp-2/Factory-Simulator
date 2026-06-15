@@ -7,3 +7,9 @@ charge: 0.1
 hardness: 2
 color: 62B490FF
 hiddenOnPlanets: [serpulo, erekir] 
+research: {
+  parent: wood
+  objectives: [
+    copper-ore
+  ]
+} 
