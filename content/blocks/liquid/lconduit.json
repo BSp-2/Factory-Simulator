@@ -26,3 +26,6 @@ liquidCapacity: 30
 
 research: mechanicalpump 
 requiresUnlock: false
+researchCost: [
+  wood/0
+]
