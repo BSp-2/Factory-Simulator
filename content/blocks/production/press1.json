@@ -49,9 +49,9 @@ jsonRecipes: [
 
 
 requirements: [
-  01a-01-wood/100
-  01a-02-stone/60
-  01a-04-stone-slabs/40
+  wood/100
+  stone/60
+  stone-slabs/40
 ]
 research: {
   parent: cutter1
