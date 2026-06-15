@@ -18,6 +18,7 @@ pumpAmount: 0.222222222222222222222222
 
 research: {
   parent: grassplains
+  requiresUnlock: false
   objectives: [
     glass
   ]
