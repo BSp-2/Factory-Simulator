@@ -36,6 +36,7 @@ jsonRecipes: [
       liquids: [
         water/0.15
       ]
+    } 
     output: {
       items: [
         copper-plate/2
