@@ -2,7 +2,7 @@ type: MultiCrafter
 name: Tier 1 Cutter
 description: Cuts different resources into smaller pieces. 
 size: 2
-category: production 
+category: crafting
 
 
 hasItems: true
