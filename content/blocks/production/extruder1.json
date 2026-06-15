@@ -1,0 +1,54 @@
+type: MultiCrafter
+name: Tier 1 Extruder
+description: Extrudes different resources into refined items. 
+size: 3
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+
+
+jsonRecipes: [
+  {
+    name: copperwirerecipe
+    input: {
+      items: [
+        copper-ingot/1
+      ]
+      liquids: [
+        water/0.5
+      ]
+    }
+    output: {
+      items: [
+        copper-ingot/1
+      ]
+    }
+    craftTime: 120
+    unlocked: true
+  }
+]
+
+
+requirements: [
+  wood/240
+  stone/140
+  stone-plates/100
+  copper-plate/20
+]
+
+
+research: {
+  parent: furnace1
+  objectives: [
+    pressurized-wood
+    stone-plates
+    copper-plate
+  ] 
+} 
+researchCost: [
+  wood/0
+] 
