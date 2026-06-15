@@ -1,0 +1,11 @@
+captureWave: 0
+planet: xiliri
+sector: 0
+research: {
+  planet: xiliri
+  root: true
+  name: Plooeys Mental Asylum
+  requiresUnlock: false
+} 
+difficulty: 1
+alwaysUnlocked: true
