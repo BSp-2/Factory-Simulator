@@ -7,3 +7,4 @@ charge: 0
 hardness: 1
 color: C69D71FF
 hiddenOnPlanets: [serpulo, erekir] 
+research: wood
