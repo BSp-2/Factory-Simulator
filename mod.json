@@ -90,5 +90,8 @@ contentOrder: [
     stoneslabsrecipe
     stoneplatesrecipe
     glasspanesrecipe
-    
+    pressurizedwoodrecipe
+    copperplaterecipe
+    copperingotrecipe
+    glassrecipe
 ] 
