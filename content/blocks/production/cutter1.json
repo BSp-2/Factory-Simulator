@@ -25,8 +25,9 @@ jsonRecipes: [
         wood-planks/3
       ]
     }
-    craftTime: 60
+    craftTime: 120
     research: wood
+    unlocked: false
   }
   {
     name: stoneslabsrecipe
@@ -40,8 +41,9 @@ jsonRecipes: [
         stone-slabs/3
       ]
     }
-    craftTime: 60
+    craftTime: 120
     research: stone
+    unlocked: false
   }
   {
     name: stoneplatesrecipe
@@ -60,6 +62,7 @@ jsonRecipes: [
     }
     craftTime: 120
     research: stone-slabs
+    unlocked: false
   }
   {
     name: Glass Panes
@@ -78,6 +81,7 @@ jsonRecipes: [
     }
     craftTime: 180
     research: glass
+    unlocked: false
   }
 ]
 
