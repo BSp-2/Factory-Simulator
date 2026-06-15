@@ -196,43 +196,7 @@ allowWaveSimulation: false
 clearSectorOnLose: false
 allowWaves: false
 prebuildBase: false
-defaultCore: core-nucleus
+defaultCore: inyanga
 parent: ceus
 solarSystem: ceus
 launchCandidates: []
-itemWhitelist: [
-  water
-  steam
-  wood
-  stone 
-  wood-planks
-  stone-slabs
-  stone-plates
-  pressurized-wood
-  sand
-  glass
-  glass-panes
-  copper-ore
-  copper-ingot
-  copper-plate
-  copper-wire
-] 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
