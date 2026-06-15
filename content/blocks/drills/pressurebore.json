@@ -42,4 +42,10 @@ sparkLife: 24
 sparkSpread: 30
 
 
-research: inyanga
+research: {
+  parent: grassplains
+  objectives: [
+    wood
+    stone
+  ] 
+}
