@@ -15,8 +15,8 @@ requirements: [
 
 loadEffect: {
   type: ParticleEffect
-  length: 5
-  particles: 12
+  length: 3
+  particles: 6
   line: true
   strokeFrom: 1
   strokeTo: 0.1
@@ -25,8 +25,8 @@ loadEffect: {
 
 unloadEffect: {
   type: ParticleEffect
-  length: 5
-  particles: 12
+  length: 3
+  particles: 6
   line: true
   strokeFrom: 1
   strokeTo: 0.1
@@ -37,3 +37,6 @@ research: {
   parent: grassplains
   requiresUnlock: false
 } 
+researchCost: [
+  wood/0
+]
