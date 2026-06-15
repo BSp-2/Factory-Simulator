@@ -56,7 +56,7 @@ requirements: [
 
 
 research: {
-  parent: grassplains
+  parent: press1
   objectives: [
     pressurized-wood
     stone-plates
