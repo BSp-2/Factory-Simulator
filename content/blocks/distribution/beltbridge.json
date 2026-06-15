@@ -17,3 +17,6 @@ range: 4
 speed: 2
 research: belt
 requiresUnlock: false
+researchCost: [
+  wood/0
+]
