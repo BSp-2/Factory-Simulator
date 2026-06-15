@@ -34,7 +34,7 @@ jsonRecipes: [
     name: glassrecipe
     input: {
       items: [
-        sand/5
+        itemsnad/5
       ]
     }
     output: {
