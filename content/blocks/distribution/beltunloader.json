@@ -17,3 +17,6 @@ allowCoreUnload: false
 
 research: beltbridge
 requiresUnlock: false
+researchCost: [
+  wood/0
+]
