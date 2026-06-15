@@ -85,4 +85,10 @@ contentOrder: [
       lcontainer
   #units
     lunar
+  #recipes
+    woodplanksrecipe
+    stoneslabsrecipe
+    stoneplatesrecipe
+    glasspanesrecipe
+    
 ] 
