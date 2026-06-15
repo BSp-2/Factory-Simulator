@@ -15,3 +15,4 @@ requirements: [
 
 liquidPadding: 2
 research: conduitbridge
+requiresUnlock: false
