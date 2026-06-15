@@ -33,4 +33,7 @@ unloadEffect: {
 }
 
 
-research: inyanga
+research: {
+  parent: grassplains
+  requiresUnlock: false
+} 
