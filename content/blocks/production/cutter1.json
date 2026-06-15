@@ -14,7 +14,7 @@ craftTime: 60
 
 jsonRecipes: [
   {
-    name: Wood Planks
+    name: woodplanksrecipe
     input: {
       items: [
         wood/2
@@ -26,10 +26,10 @@ jsonRecipes: [
       ]
     }
     craftTime: 60
-    unlocked: true
+    research: wood
   }
   {
-    name: Stone Slabs
+    name: stoneslabsrecipe
     input: {
       items: [
         stone/2
@@ -41,10 +41,10 @@ jsonRecipes: [
       ]
     }
     craftTime: 60
-    unlocked: true
+    research: stone
   }
   {
-    name: Stone Plates
+    name: stoneplatesrecipe
     input: {
       liquids: [
         water/0.25
@@ -59,6 +59,7 @@ jsonRecipes: [
       ]
     }
     craftTime: 120
+    research: stone-slabs
   }
   {
     name: Glass Panes
@@ -76,6 +77,7 @@ jsonRecipes: [
       ]
     }
     craftTime: 180
+    research: glass
   }
 ]
 
@@ -84,3 +86,12 @@ requirements: [
   wood/60
   stone/40
 ]
+
+
+research: {
+  parent: grassplains
+  objectives: [
+    wood
+    stone
+  ] 
+} 
