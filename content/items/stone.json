@@ -7,3 +7,9 @@ charge: 0
 hardness: 2
 color: ACABB2FF
 hiddenOnPlanets: [serpulo, erekir] 
+research: {
+  parent: wood
+  objectives: [
+    stone
+  ]
+} 
