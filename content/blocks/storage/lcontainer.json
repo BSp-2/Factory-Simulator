@@ -11,4 +11,10 @@ requirements: [
   wood-planks/20
 ]
 squareSprite: false
-research: inyanga
+research: {
+  parent: inyanga
+  objectives: [
+    stone-slabs
+    wood-planks
+  ] 
+} 
