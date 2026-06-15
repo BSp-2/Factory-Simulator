@@ -9,12 +9,15 @@ category: effect
 requirements: [
   stone-slabs/100
   wood-planks/20
+  copper-ingot/20
 ]
 squareSprite: false
 research: {
   parent: inyanga
+  requiresUnlock: fasle
   objectives: [
     stone-slabs
     wood-planks
+    copper-ingot
   ] 
 } 
