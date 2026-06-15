@@ -11,7 +11,7 @@ rotateSpeed: -1
 liquidBoostIntensity: 1.5
 drawRim: true
 heatColor: BF4C86
-drillHardnessMultiplier: 1
+hardnessDrillMultiplier: 1
 
 
 requirements: [
