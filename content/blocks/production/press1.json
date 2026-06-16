@@ -9,7 +9,6 @@ hasItems: true
 hasPower: true
 squareSprite: false
 itemCapacity: 20
-craftEffect: pulverizeMedium
 
 
 jsonRecipes: [
@@ -28,6 +27,7 @@ jsonRecipes: [
     }
     craftTime: 480
     alwaysUnlocked: true
+    craftEffect: pulverizeMedium 
   }
   {
     name: copperplaterecipe
@@ -46,7 +46,8 @@ jsonRecipes: [
       ] 
     } 
     craftTime: 480
-    unlocked: true
+    alwaysUnlocked: true
+    craftEffect: pulverizeMedium
   } 
 ] 
 
