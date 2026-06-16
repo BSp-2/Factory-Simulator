@@ -101,7 +101,7 @@ researchCost: [
 
 
 drawer: {
-  DrawMulti
+  type: DrawMulti
   drawers: [
     {
       type: DrawRegion
