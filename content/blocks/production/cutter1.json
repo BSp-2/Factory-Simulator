@@ -27,25 +27,7 @@ jsonRecipes: [
       ]
     }
     craftTime: 120
-    alwaysUnlocked: true
-    drawer: {
-      type: DrawMulti
-      drawers: [
-        {
-          type: DrawRegion
-          suffix: -bottom
-        }
-        {
-          type: DrawRegion
-          suffix: -rotator
-          spinSprite: true
-          rotateSpeed: 1
-        }
-        {
-          type: DrawDefault
-        }
-      ]
-    } 
+    alwaysUnlocked: true 
   }
   {
     name: stoneslabsrecipe
@@ -61,25 +43,7 @@ jsonRecipes: [
       ]
     }
     craftTime: 120
-    alwaysUnlocked: true
-    drawer: {
-      type: DrawMulti
-      drawers: [
-        {
-          type: DrawRegion
-          suffix: -bottom
-        }
-        {
-          type: DrawRegion
-          suffix: -rotator
-          spinSprite: true
-          rotateSpeed: 1
-        }
-        {
-          type: DrawDefault
-        }
-      ]
-    } 
+    alwaysUnlocked: true 
   }
   {
     name: stoneplatesrecipe
@@ -100,28 +64,10 @@ jsonRecipes: [
     craftTime: 120
     alwaysUnlocked: true
     drawer: {
-      type: DrawMulti
-      drawers: [
-        {
-          type: DrawRegion
-          suffix: -bottom
-        }
-        {
-          type: DrawLiquidTile
-          drawLiquid: water
-          padding: 3
-          alpha: 1
-        }
-        {
-          type: DrawRegion
-          suffix: -rotator
-          spinSprite: true
-          rotateSpeed: 1
-        }
-        {
-          type: DrawDefault
-        }
-      ]
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 3
+      alpha: 1
     } 
   }
   {
@@ -143,28 +89,10 @@ jsonRecipes: [
     craftTime: 300
     alwaysUnlocked: true
     drawer: {
-      type: DrawMulti
-      drawers: [
-        {
-          type: DrawRegion
-          suffix: -bottom
-        }
-        {
-          type: DrawLiquidTile
-          drawLiquid: water
-          padding: 3
-          alpha: 1
-        }
-        {
-          type: DrawRegion
-          suffix: -rotator
-          spinSprite: true
-          rotateSpeed: 1
-        }
-        {
-          type: DrawDefault
-        }
-      ]
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 3
+      alpha: 1
     } 
   }
 ]
@@ -189,5 +117,23 @@ researchCost: [
 
 
 drawer: {
-  type: DrawRecipe
-} 
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRecipe
+    } 
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 1
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
