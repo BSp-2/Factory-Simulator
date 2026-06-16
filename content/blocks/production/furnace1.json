@@ -82,18 +82,17 @@ drawer: {
     {
 	    type: DrawGlowRegion
 	    alpha: 1
-	    glowIntensity: 1
+	    glowIntensity: 0.333
 	    color: FF6040FF
 	    suffix: -glow
-	    glowScale: 20
+	    glowScale: 40
 	  }
     {
 	    type: DrawGlowRegion
 	    alpha: 1
-	    glowIntensity: 0.333
 	    color: FF6040FF
 	    suffix: -heat
-	    glowScale: 5
+	    glowScale: 999999
     }
     {
       type: DrawRegion
