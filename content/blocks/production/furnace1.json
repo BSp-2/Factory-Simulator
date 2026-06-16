@@ -83,7 +83,6 @@ drawer: {
 			particleRad: 5
 			rotateScl: 1.25
 		}
-		} 
     {
       type: DrawDefault
     }
