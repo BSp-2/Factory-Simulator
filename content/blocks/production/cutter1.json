@@ -27,6 +27,24 @@ jsonRecipes: [
     }
     craftTime: 120
     unlocked: true
+    drawer: {
+      type: DrawMulti
+      drawers: [
+        {
+          type: DrawRegion
+          suffix: -bottom
+        }
+        {
+          type: DrawRegion
+          suffix: -rotator
+          spinSprite: true
+          rotateSpeed: 1
+        }
+        {
+          type: DrawDefault
+        }
+      ]
+    } 
   }
   {
     name: stoneslabsrecipe
@@ -42,6 +60,24 @@ jsonRecipes: [
     }
     craftTime: 120
     unlocked: true
+    drawer: {
+      type: DrawMulti
+      drawers: [
+        {
+          type: DrawRegion
+          suffix: -bottom
+        }
+        {
+          type: DrawRegion
+          suffix: -rotator
+          spinSprite: true
+          rotateSpeed: 1
+        }
+        {
+          type: DrawDefault
+        }
+      ]
+    } 
   }
   {
     name: stoneplatesrecipe
@@ -60,6 +96,30 @@ jsonRecipes: [
     }
     craftTime: 120
     unlocked: true
+    drawer: {
+      type: DrawMulti
+      drawers: [
+        {
+          type: DrawRegion
+          suffix: -bottom
+        }
+        {
+          type: DrawLiquidTile
+          drawLiquid: water
+          padding: 3
+          alpha: 1
+        }
+        {
+          type: DrawRegion
+          suffix: -rotator
+          spinSprite: true
+          rotateSpeed: 1
+        }
+        {
+          type: DrawDefault
+        }
+      ]
+    } 
   }
   {
     name: Glass Panes
@@ -78,6 +138,30 @@ jsonRecipes: [
     }
     craftTime: 180
     unlocked: true
+    drawer: {
+      type: DrawMulti
+      drawers: [
+        {
+          type: DrawRegion
+          suffix: -bottom
+        }
+        {
+          type: DrawLiquidTile
+          drawLiquid: water
+          padding: 3
+          alpha: 1
+        }
+        {
+          type: DrawRegion
+          suffix: -rotator
+          spinSprite: true
+          rotateSpeed: 1
+        }
+        {
+          type: DrawDefault
+        }
+      ]
+    } 
   }
 ]
 
