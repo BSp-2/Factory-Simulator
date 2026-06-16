@@ -18,15 +18,15 @@ jsonRecipes: [
     localizedName: Pressurized Wood
     input: {
       items: [
-        wood-planks/2
+        wood-planks/8
       ]
     }
     output: {
       items: [
-        pressurized-wood/2
+        pressurized-wood/8
       ]
     }
-    craftTime: 120
+    craftTime: 480
     alwaysUnlocked: true
   }
   {
@@ -34,7 +34,7 @@ jsonRecipes: [
     localizedName: Copper Plate
     input: {
       items: [
-        copper-ingot/2
+        copper-ingot/8
       ]
       liquids: [
         water/0.75
@@ -42,10 +42,10 @@ jsonRecipes: [
     } 
     output: {
       items: [
-        copper-plate/2
+        copper-plate/8
       ] 
     } 
-    craftTime: 120
+    craftTime: 480
     unlocked: true
   } 
 ] 
