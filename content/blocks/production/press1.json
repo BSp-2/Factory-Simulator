@@ -14,6 +14,7 @@ itemCapacity: 20
 jsonRecipes: [
   {
     name: pressurizedwoodrecipe
+    localizedName: Pressurized Wood
     input: {
       items: [
         wood-planks/2
@@ -25,10 +26,11 @@ jsonRecipes: [
       ]
     }
     craftTime: 120
-    unlocked: true
+    alwaysUnlocked: true
   }
   {
     name: copperplaterecipe
+    localizedName: Copper Plate
     input: {
       items: [
         copper-ingot/2
