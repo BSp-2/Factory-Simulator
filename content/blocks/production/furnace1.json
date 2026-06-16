@@ -94,13 +94,6 @@ drawer: {
 	    suffix: -glow
 	    glowScale: 40
 	  }
-    #{
-	    #type: DrawGlowRegion
-	    #alpha: 1
-	    #color: FF6040FF
-	    #suffix: -heat
-	    #glowScale: 999999
-    #}
     {
       type: DrawRegion
       suffix: -top
