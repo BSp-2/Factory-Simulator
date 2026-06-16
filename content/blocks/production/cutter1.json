@@ -6,7 +6,7 @@ category: crafting
 
 
 hasItems: true
-hasPower: true
+hasLiquids: true
 squareSprite: false
 itemCapacity: 20
 craftTime: 60
@@ -98,3 +98,29 @@ research: {
 researchCost: [
   wood/0
 ]
+
+
+drawer: {
+  DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      liquid: water
+      padding: 3
+      alpha: 1
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 1
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
