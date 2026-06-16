@@ -14,6 +14,7 @@ itemCapacity: 20
 jsonRecipes: [
   {
     name: copperwirerecipe
+    localizedName: Copper Wire
     input: {
       items: [
         copper-ingot/1
@@ -28,7 +29,7 @@ jsonRecipes: [
       ]
     }
     craftTime: 120
-    unlocked: true
+    alwaysUnlocked: true
   }
 ]
 
