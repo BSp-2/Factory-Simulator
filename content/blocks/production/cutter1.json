@@ -15,6 +15,7 @@ craftTime: 60
 jsonRecipes: [
   {
     name: woodplanksrecipe
+    localizedName: Wood Planks
     input: {
       items: [
         wood/2
@@ -26,7 +27,7 @@ jsonRecipes: [
       ]
     }
     craftTime: 120
-    unlocked: true
+    alwaysUnlocked: true
     drawer: {
       type: DrawMulti
       drawers: [
@@ -48,6 +49,7 @@ jsonRecipes: [
   }
   {
     name: stoneslabsrecipe
+    localizedName: Stone Slabs
     input: {
       items: [
         stone/2
@@ -59,7 +61,7 @@ jsonRecipes: [
       ]
     }
     craftTime: 120
-    unlocked: true
+    alwaysUnlocked: true
     drawer: {
       type: DrawMulti
       drawers: [
@@ -81,6 +83,7 @@ jsonRecipes: [
   }
   {
     name: stoneplatesrecipe
+    localizedName: Stone Plates
     input: {
       liquids: [
         water/0.25
@@ -95,7 +98,7 @@ jsonRecipes: [
       ]
     }
     craftTime: 120
-    unlocked: true
+    alwaysUnlocked: true
     drawer: {
       type: DrawMulti
       drawers: [
@@ -123,21 +126,22 @@ jsonRecipes: [
   }
   {
     name: glasspanesrecipe
+    localizedName: Glass Panes
     input: {
       liquids: [
         water/0.5
       ]
       items: [
-        glass/2
+        glass/3
       ]
     }
     output: {
       items: [
-        glass-panes/4
+        glass-panes/6
       ]
     }
-    craftTime: 180
-    unlocked: true
+    craftTime: 300
+    alwaysUnlocked: true
     drawer: {
       type: DrawMulti
       drawers: [
@@ -185,26 +189,5 @@ researchCost: [
 
 
 drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: water
-      padding: 3
-      alpha: 1
-    }
-    {
-      type: DrawRegion
-      suffix: -rotator
-      spinSprite: true
-      rotateSpeed: 1
-    }
-    {
-      type: DrawDefault
-    }
-  ]
+  type: DrawRecipe
 } 
