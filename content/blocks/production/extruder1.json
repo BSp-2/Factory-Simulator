@@ -1,6 +1,6 @@
 type: MultiCrafter
 name: Tier 1 Extruder
-description: Extrudes different resources into refined items. 
+description: Elongates items into rods/wires. 
 size: 3
 category: crafting
 
