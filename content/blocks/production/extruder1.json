@@ -69,10 +69,22 @@ drawer: {
       alpha: 1
     }
     {
+      type: DrawBubbles
+      fill: false
+      color: 477FCCFF
+      spread: 6
+	  }
+    {
+      type: DrawBubbles
+      fill: false
+      color: 3D88F2FF
+      spread: 6
+    }
+    {
       type: DrawRegion
       suffix: -roller1
       spinSprite: true
-      rotateSpeed: 2
+      rotateSpeed: 3
       x: -2.5
       y: 7.5
     }
@@ -80,7 +92,7 @@ drawer: {
       type: DrawRegion
       suffix: -roller2
       spinSprite: true
-      rotateSpeed: -2
+      rotateSpeed: -3
       x: -7.5
       y: 2.5
     }
@@ -88,7 +100,7 @@ drawer: {
       type: DrawRegion
       suffix: -roller3
       spinSprite: true
-      rotateSpeed: -2
+      rotateSpeed: -3
       x: 7.5
       y: -2.5
     }
@@ -96,7 +108,7 @@ drawer: {
       type: DrawRegion
       suffix: -roller4
       spinSprite: true
-      rotateSpeed: 2
+      rotateSpeed: 3
       x: 2.5
       y: -7.5
     }
