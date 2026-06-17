@@ -1,0 +1,15 @@
+type: item
+name: Stone bricks
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+color: B0BCBFFF
+hiddenOnPlanets: [serpulo, erekir] 
+research: {
+  parent: mountainside
+  objectives: [
+    stone-bricks
+  ]
+}  
