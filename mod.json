@@ -87,24 +87,23 @@ contentOrder: [
       conduitjunction
       conduitbridge
       conduitdistributor
+    #power
+      burnergenerator
+      pylon
     #factories
-      boiler
       cutter1
       press1
       furnace1
       extruder1
+      cutter2
+      press2
+      furnace2
+      extruder2
+      assembler2
+      2assembler2
     #storage
       inyanga
       lcontainer
   #units
     lunar
-  #recipes
-    woodplanksrecipe
-    stoneslabsrecipe
-    stoneplatesrecipe
-    glasspanesrecipe
-    pressurizedwoodrecipe
-    copperplaterecipe
-    copperingotrecipe
-    glassrecipe
 ] 
