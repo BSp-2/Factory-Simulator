@@ -17,7 +17,7 @@ hardnessDrillMultiplier: 0
 requirements: [
   wood-planks/60
   pressurized-wood/40
-  stone-plates/40
+  stone-slabs/40
 ]
 
 
