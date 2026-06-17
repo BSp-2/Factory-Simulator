@@ -7,6 +7,7 @@ category: crafting
 
 hasItems: true
 hasPower: true
+hasLiquids: true
 squareSprite: false
 itemCapacity: 20
 
@@ -16,6 +17,7 @@ jsonRecipes: [
     name: stonebricksrecipe
     localizedName: Stone Bricks
     input: {
+	    power: 1
       items: [
         stone-plates/3
       ]
@@ -35,6 +37,7 @@ jsonRecipes: [
     name: coppergearrecipe
     localizedName: Copper Gear
     input: {
+	    power: 1.5
       items: [
         copper-plate/3
       ]
@@ -54,6 +57,7 @@ jsonRecipes: [
     name: irongearrecipe
     localizedName: Iron Gear
     input: {
+	    power: 1.5
       items: [
         iron-plate/3
       ]
@@ -116,8 +120,8 @@ drawer: {
     {
       type: DrawRegion
 	    suffix: -piston
-	  	y: 4.5
-			x: 4.5
+	  	y: 3
+			x: 3
       spinSprite: true
       rotateSpeed: -2
     }
