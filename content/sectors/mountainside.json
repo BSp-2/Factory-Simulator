@@ -6,6 +6,19 @@ research: {
   objectives: [
     copper-wire
   ] 
+  requirements: [
+    wood/3000
+    stone/3000
+    wood-planks/2500
+    stone-slabs/2500
+    pressurized-wood/2000
+    stone-plates/2000
+    glass/2500
+    glass-panes/2000
+    copper-ingot/2500
+    copper-plate/2000
+    copper-wire/1500
+  ]
 } 
 researchCost: [
   wood/3000
