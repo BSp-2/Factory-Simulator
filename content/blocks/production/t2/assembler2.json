@@ -114,9 +114,12 @@ drawer: {
       rotSpeed: -2
     }
     {
-      type: DrawRegion
-      suffix: -piston
-      y: 5
+      type: DrawPistons
+	    suffix: -piston
+	    sinMag: 4
+	    sinScale: 5
+	    sides: 1
+	    angleOffset: 135
       spinSprite: true
       rotSpeed: -2
     }
