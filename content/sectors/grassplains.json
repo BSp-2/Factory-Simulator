@@ -2,8 +2,7 @@ captureWave: 1
 planet: xiliri
 sector: 0
 research: {
-  parent: inyanga
-  requiresUnlock: false
+  parent: grassplainsresearch
 } 
 difficulty: 1
 alwaysUnlocked: true
