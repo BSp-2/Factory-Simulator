@@ -30,3 +30,4 @@ research: {
   name: Plooeys Mental Asylum
   requiresUnlock: false
 } 
+shownPlanets: [xiliri, abenon] 
