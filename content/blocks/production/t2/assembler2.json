@@ -1,0 +1,86 @@
+type: MultiCrafter
+name: Tier 2 Assembler
+description: Reconstructs items into more advanced products. 
+size: 2
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+
+
+jsonRecipes: [
+  {
+    name: stonebricksrecipe
+    localizedName: Stone Bricks
+    input: {
+      items: [
+        stone-plates/3
+      ]
+      liquids: [
+        water/1.25
+      ] 
+    }
+    output: {
+      items: [
+        stone-bricks/3
+      ]
+    }
+    craftTime: 360
+    alwaysUnlocked: true
+  }
+  {
+    name: coppergearrecipe
+    localizedName: Copper Gear
+    input: {
+      items: [
+        copper-plate/3
+      ]
+      liquids: [
+        water/1.5
+      ] 
+    }
+    output: {
+      items: [
+        copper-gear/3
+      ]
+    }
+    craftTime: 360
+    alwaysUnlocked: true
+  }
+  {
+    name: irongearrecipe
+    localizedName: Iron Gear
+    input: {
+      items: [
+        iron-plate/3
+      ]
+      liquids: [
+        water/1.5
+      ] 
+    }
+    output: {
+      items: [
+        iron-gear/3
+      ]
+    }
+    craftTime: 360
+    alwaysUnlocked: true
+  }
+] 
+
+
+requirements: [
+  iron-ingot/300
+  gold-ingot/180
+  iron-plate/120
+  iron-wire/80
+]
+research: {
+  parent: extruder2
+}
+researchCost: [
+  wood/0
+] 
