@@ -1,0 +1,9 @@
+type: GenericCrafter
+buildVisibility: debugOnly
+inEditor: false
+name: Tier 1
+description: Tech required to unlock the next tier.
+research: {
+  parent: inyanga
+} 
+alwaysUnlocked: true
