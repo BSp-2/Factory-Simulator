@@ -62,7 +62,7 @@ requirements: [
   iron-ingot/40
 ]
 research: {
-  parent: mountainside
+  parent: furnace2
 }
 researchCost: [
   wood/0
