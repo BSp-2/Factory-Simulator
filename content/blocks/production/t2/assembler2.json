@@ -102,25 +102,22 @@ drawer: {
     {
       type: DrawRegion
       suffix: -roller1
-      x: -5
+      x: -4.875
       spinSprite: true
       rotateSpeed: -2
     }
     {
       type: DrawRegion
       suffix: -roller2
-      y: -5
+      y: -4.875
       spinSprite: true
       rotateSpeed: -2
     }
     {
-      type: DrawPistons
+      type: DrawRegion
 	    suffix: -piston
-	    sinMag: 4
-	    sinScale: 5
-	    sides: 1
-	  	y: 5
-	    angleOffset: 135
+	  	y: 4.5
+			x: 4.5
       spinSprite: true
       rotateSpeed: -2
     }
