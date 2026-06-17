@@ -1,0 +1,15 @@
+type: item
+name: Gold plate
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+color: F2CE79FF
+hiddenOnPlanets: [serpulo, erekir] 
+research: {
+  parent: gold-ingot
+  objectives: [
+    gold-plate
+  ]
+}  
