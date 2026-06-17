@@ -1,0 +1,133 @@
+type: MultiCrafter
+name: Tier 2 Extruder
+description: Elongates items into rods/wires. 
+size: 3
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+
+
+jsonRecipes: [
+  {
+    name: ironwirerecipe
+    localizedName: Iron Wire
+    input: {
+      items: [
+        iron-ingot/4
+      ]
+      liquids: [
+        water/0.5
+      ]
+    }
+    output: {
+      items: [
+        iron-wire/4
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+  }
+  {
+    name: goldwirerecipe
+    localizedName: Gold Wire
+    input: {
+      items: [
+        gold-ingot/4
+      ]
+      liquids: [
+        water/1
+      ]
+    }
+    output: {
+      items: [
+        gold-wire/4
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+}
+]
+
+
+requirements: [
+  stone-plates/200
+  iron-ingot/120
+  gold-ingot/100
+  iron-plate/60
+]
+
+
+research: {
+  parent: press2
+} 
+researchCost: [
+  wood/0
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 3
+      alpha: 1
+    }
+    {
+      type: DrawBubbles
+      fill: false
+      color: 4967B3FF
+      spread: 8
+	  }
+    {
+      type: DrawBubbles
+      fill: false
+      color: 5F82DAFF
+      spread: 6
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      spinSprite: true
+      rotateSpeed: 3
+      x: -2.5
+      y: 7.5
+    }
+    {
+      type: DrawRegion
+      suffix: -roller2
+      spinSprite: true
+      rotateSpeed: -3
+      x: -7.5
+      y: 2.5
+    }
+    {
+      type: DrawRegion
+      suffix: -roller3
+      spinSprite: true
+      rotateSpeed: -3
+      x: 7.5
+      y: -2.5
+    }
+    {
+      type: DrawRegion
+      suffix: -roller4
+      spinSprite: true
+      rotateSpeed: 3
+      x: 2.5
+      y: -7.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
