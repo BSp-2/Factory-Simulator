@@ -1,0 +1,69 @@
+type: MultiCrafter
+name: Tier 2 Press
+description: Apllies huge pressure to items. 
+size: 3
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+
+
+jsonRecipes: [
+  {
+    name: ironplaterecipe
+    localizedName: Iron Plate
+    input: {
+      items: [
+        iron-ingot/4
+      ]
+      liquids: [
+        water/0.75
+      ] 
+    }
+    output: {
+      items: [
+        iron-plate/4
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  }
+  {
+    name: goldplaterecipe
+    localizedName: Gold Plate
+    input: {
+      items: [
+        gold-ingot/4
+      ]
+      liquids: [
+        water/0.75
+      ]
+    } 
+    output: {
+      items: [
+        gold-plate/4
+      ] 
+    } 
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  } 
+] 
+
+
+requirements: [
+  wood/200
+  stone/120
+  stone-slabs/80
+  iron-ingot/40
+]
+research: {
+  parent: mountainside
+}
+researchCost: [
+  wood/0
+]
