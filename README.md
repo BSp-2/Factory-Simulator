@@ -1,2 +1,4 @@
 # Factory-Simulator
-A recreation of a peak roblox game called "factory simulator". Wipl require some sort of a multicrafter lib
+A recreation of a game called factory simulator
+
+*requires multicrafter lib*
