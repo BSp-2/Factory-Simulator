@@ -17,7 +17,7 @@ jsonRecipes: [
     localizedName: Copper Wire
     input: {
       items: [
-        copper-ingot/1
+        copper-ingot/4
       ]
       liquids: [
         water/0.5
@@ -25,10 +25,10 @@ jsonRecipes: [
     }
     output: {
       items: [
-        copper-wire/1
+        copper-wire/4
       ]
     }
-    craftTime: 120
+    craftTime: 240
     alwaysUnlocked: true
   }
 ]
@@ -70,14 +70,14 @@ drawer: {
     }
     {
       type: DrawBubbles
-      fill: true
-      color: 2958BEFF
-      spread: 6
+      fill: false
+      color: 4967B3FF
+      spread: 8
 	  }
     {
       type: DrawBubbles
-      fill: true
-      color: 3D88F2FF
+      fill: false
+      color: 5F82DAFF
       spread: 6
     }
     {
