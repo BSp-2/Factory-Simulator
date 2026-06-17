@@ -5,8 +5,8 @@ regionRotated1: 1
 size: 1
 health: 100
 requirements: [
-	stone/10
-  wood/5
+	stone-slabs/10
+  pressurized-wood/5
 ]
 category: distribution
 squareSprite: true
