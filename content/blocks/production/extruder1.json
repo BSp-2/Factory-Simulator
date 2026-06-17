@@ -70,13 +70,13 @@ drawer: {
     }
     {
       type: DrawBubbles
-      fill: false
-      color: 477FCCFF
+      fill: true
+      color: 2958BEFF
       spread: 6
 	  }
     {
       type: DrawBubbles
-      fill: false
+      fill: true
       color: 3D88F2FF
       spread: 6
     }
