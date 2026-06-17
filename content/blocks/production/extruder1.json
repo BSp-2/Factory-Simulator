@@ -53,3 +53,55 @@ research: {
 researchCost: [
   wood/0
 ] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 3
+      alpha: 1
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      spinSprite: true
+      rotateSpeed: 2
+      x: -2.5
+      y: 7.5
+    }
+    {
+      type: DrawRegion
+      suffix: -roller2
+      spinSprite: true
+      rotateSpeed: -2
+      x: -7.5
+      y: 2.5
+    }
+    {
+      type: DrawRegion
+      suffix: -roller3
+      spinSprite: true
+      rotateSpeed: -2
+      x: 7.5
+      y: -2.5
+    }
+    {
+      type: DrawRegion
+      suffix: -roller4
+      spinSprite: true
+      rotateSpeed: 2
+      x: 2.5
+      y: -7.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
