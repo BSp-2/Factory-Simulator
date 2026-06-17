@@ -1,0 +1,102 @@
+type: MultiCrafter
+name: Tier 2 Furnace
+description: Melts different resources into refined items. 
+size: 2
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+
+
+jsonRecipes: [
+  {
+    name: ironingotrecipe
+    localizedName: Iron Ingot
+    input: {
+      items: [
+        iron-ore/5
+      ]
+      liquids: [
+        water/1
+      ]
+    }
+    output: {
+      items: [
+        iron-ingot/5
+      ]
+    }
+    craftTime: 300
+    alwaysUnlocked: true
+  }
+  {
+    name: goldingotrecipe
+    localizedName: Glass
+    input: {
+      items: [
+        gold-ore/5
+      ]
+      liquids: [
+        water/1
+      ]
+    }
+    output: {
+      items: [
+        gold-ingot/5
+      ]
+    }
+    craftTime: 300
+    alwaysUnlocked: true
+  }
+]
+
+
+requirements: [
+  wood/200
+  stone/100
+  pressurized-wood/50
+  copper-plate/25
+]
+
+
+research: {
+  parent: mountainside
+} 
+researchCost: [
+  wood/0
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+			type: DrawCrucibleFlame
+			particleLife: 120
+			particleSize: 4
+			particleRad: 5
+			rotateScl: 1.25
+		}
+    {
+      type: DrawDefault
+    }
+    {
+	    type: DrawGlowRegion
+	    alpha: 1
+	    glowIntensity: 0.333
+	    color: FF6040FF
+	    suffix: -glow
+	    glowScale: 40
+	  }
+    {
+      type: DrawRegion
+      suffix: -top
+    } 
+  ]
+}
