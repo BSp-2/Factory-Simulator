@@ -25,6 +25,7 @@ contentOrder: [
     stone
     stone-slabs
     stone-plates
+    stone-bricks
     itemsnad
     glass
     glass-panes
@@ -32,6 +33,18 @@ contentOrder: [
     copper-ingot
     copper-plate
     copper-wire
+    copper-gear
+    basic-circuit
+    mechanical-assembly
+    iron-ore
+    iron-ingot
+    iron-plate
+    iron-wire
+    iron-gear
+    gold-ore
+    gold-ingot
+    gold-plate
+    gold-wire
   #liquids
     steam
   #env
