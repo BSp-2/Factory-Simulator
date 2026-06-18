@@ -1,0 +1,4 @@
+type: OreBlock
+name: Gold
+itemDrop: gold-ore
+variants: 2 
