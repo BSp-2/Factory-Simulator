@@ -55,33 +55,13 @@ jsonRecipes: [
     craftTime: 240
     alwaysUnlocked: true
   }
-  {
-    name: irongearrecipe
-    localizedName: Iron Gear
-    input: {
-	    power: 1.5
-      items: [
-        iron-plate/3
-      ]
-      liquids: [
-        water/1.5
-      ] 
-    }
-    output: {
-      items: [
-        iron-gear/3
-      ]
-    }
-    craftTime: 360
-    alwaysUnlocked: true
-  }
 ] 
 
 
 requirements: [
   stone-bricks/360
   iron-plate/240
-  copper-cog/160
+  copper-gear/160
   gold-wire/100
 ] 
 research: {
