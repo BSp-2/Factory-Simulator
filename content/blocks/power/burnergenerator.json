@@ -1,24 +1,27 @@
 type: ConsumeGenerator
 name: Burner generator
-description: Basic ignition generator. Burns items in exchange for a small amount of power.
+description: Basic ignition generator. Burns wood down in exchange for a small amount of power.
 size: 2
 category: power
-squareSprite: false
 
 
 requirements: [
-  stone/40
-  wood/20
+  iron-ingot/60
+  iron-plate/20
+  gold-ingot/40
+  glass-panes/40
 ]
 
 
 consumes: {
-  itemFlammable: {}
+  items: [
+    wood-planks/2
+  ] 
 }
 
 
-powerProduction: 4
-itemDuration: 60
+powerProduction: 3
+itemDuration: 120
 generateEffect: generatespark
 ambientSound: smelter
 ambientSoundVolume: 0.03
@@ -45,9 +48,15 @@ drawer: {
     type: DrawGlowRegion
     suffix: -glow
     glowScale: 10
+    color: ff6040
     }
   ]
 }
 
 
-research: inyanga
+research: {
+  parent: mountainside
+} 
+researchCost: [
+  wood/0
+]
