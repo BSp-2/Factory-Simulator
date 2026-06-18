@@ -89,6 +89,7 @@ contentOrder: [
       excavationdrill
     #distribution 
       belt
+      beltrouter
       beltbridge
       beltunloader
     #liquid
