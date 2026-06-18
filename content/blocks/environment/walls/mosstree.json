@@ -1,0 +1,5 @@
+type: TreeBlock
+name: Moss tree
+shadowOffset: -2
+itemDrop: wood 
+shadowAlpha: 0.5
