@@ -9,7 +9,7 @@ Currently in early dev. Not intended to be played just yet.
 '''
 subtitle: ?ploo
 minGameVersion: 158.1
-version: 0.1
+version: v1.0
 repo: BSp-2/Factory-Simulator
 dependencies: ["multicrafter"] 
 
