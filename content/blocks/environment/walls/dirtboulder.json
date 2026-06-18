@@ -1,0 +1,5 @@
+type: Prop
+name: Dirt boulder
+variants: 2
+shadowAlpha: 0.5
+breakSound: lilypad
