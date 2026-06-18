@@ -1,0 +1,25 @@
+type: PowerNode
+name: Pylon
+description: Transmits power over small distances.
+laserRange: 6
+maxNodes: 4
+size: 1
+category: power
+
+
+requirements: [
+  copper-wire/20
+  iron-plate/20
+]
+
+
+laserColor1: F0E373FF
+laserColor2: BA9449FF
+
+
+research: {
+  parent: burnergenerator
+}
+researchCost: [
+  wood/0
+]
