@@ -1,0 +1,208 @@
+type: MultiCrafter
+name: Tier 2 Double Assembler
+description: Reconstructs multiple items into more advanced products. 
+size: 4
+category: crafting
+
+
+hasItems: true
+hasPower: true
+hasLiquids: true
+squareSprite: false
+itemCapacity: 20
+
+
+jsonRecipes: [
+  {
+    name: basiccircuitrecipe
+    localizedName: Basic Circuit
+    input: {
+	    power: 1
+      items: [
+        copper-plate/2
+        copper-wire/4
+      ]
+      liquids: [
+        water/1.5
+      ] 
+    }
+    output: {
+      items: [
+        basic-circuit/2
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+  }
+  {
+    name: mechanicalassemblyrecipe
+    localizedName: Mechanical Assembly
+    input: {
+	    power: 2
+      items: [
+        copper-gear/4
+        iron-wire/2
+      ]
+      liquids: [
+        water/2
+      ] 
+    }
+    output: {
+      items: [
+        mechanical-assembly/2
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+  }
+  {
+    name: irongearrecipe
+    localizedName: Iron Gear
+    input: {
+	    power: 1.5
+      items: [
+        iron-plate/3
+      ]
+      liquids: [
+        water/1.5
+      ] 
+    }
+    output: {
+      items: [
+        iron-gear/3
+      ]
+    }
+    craftTime: 360
+    alwaysUnlocked: true
+  }
+] 
+
+
+requirements: [
+  stone-bricks/360
+  iron-plate/240
+  copper-cog/160
+  gold-wire/100
+] 
+research: {
+  parent: assembler2
+}
+researchCost: [
+  wood/0
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 3
+      alpha: 1
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      x: -3
+      y: -11
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller2
+      x: 3
+      y: -11
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller3
+      x: 11
+      y: -3
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller4
+      x: 11
+      y: 3
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller5
+      x: 3
+      y: 11
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller6
+      x: -3
+      y: 11
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller7
+      x: -11
+      y: 3
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller8
+      x: -11
+      y: -3
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+	    suffix: -cog1
+	  	y: -3
+			x: -3
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+	    suffix: -cog2
+	  	y: -3
+			x: 3
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawRegion
+	    suffix: -cog3
+	  	y: 3
+			x: 3
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+	    suffix: -cog4
+	  	y: 3
+			x: -3
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}  
