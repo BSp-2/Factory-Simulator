@@ -1,5 +1,6 @@
 type: Prop
 name: Dirt boulder
 variants: 2
-shadowAlpha: 0.25
+shadowAlpha: 0.5
+customShadow: true
 breakSound: rock-break
