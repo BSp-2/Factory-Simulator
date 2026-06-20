@@ -6,9 +6,9 @@ category: power
 
 
 requirements: [
+  stone-plates/120
   iron-ingot/60
   iron-plate/20
-  gold-ingot/40
   glass-panes/40
 ]
 
@@ -20,7 +20,7 @@ consumes: {
 }
 
 
-powerProduction: 3
+powerProduction: 2
 itemDuration: 120
 generateEffect: generatespark
 ambientSound: smelter
