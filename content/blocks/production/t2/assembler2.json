@@ -77,8 +77,8 @@ jsonRecipes: [
 
 
 requirements: [
-  iron-ingot/300
-  gold-ingot/180
+  copper-gear/100
+  iron-ingot/240
   iron-plate/120
   iron-wire/80
 ]
