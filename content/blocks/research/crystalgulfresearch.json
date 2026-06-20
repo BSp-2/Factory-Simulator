@@ -1,0 +1,21 @@
+type: GenericCrafter
+buildVisibility: debugOnly
+inEditor: false
+name: Tier 3
+description: Tech required to unlock the next tier.
+researchCost: [
+  iron-ingot/3000
+  iron-plate/2500
+  iron-wire/2000
+  iron-gear/1000
+  gold-ingot/2500
+  gold-plate/2000
+  gold-wire/1500
+  stone-bricks/2500
+  copper-gear/2000
+  basic-circuit/1000
+  mechanical-assembly/1000
+]
+research: {
+  parent: mountainside
+} 
