@@ -55,8 +55,8 @@ jsonRecipes: [
 
 requirements: [
   stone-plates/200
+  copper-plate/120
   iron-ingot/120
-  gold-ingot/100
   iron-plate/60
 ]
 
