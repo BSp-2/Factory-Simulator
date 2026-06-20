@@ -60,9 +60,9 @@ jsonRecipes: [
 
 requirements: [
   stone-bricks/360
-  iron-plate/240
   copper-gear/160
-  gold-wire/100
+  iron-plate/240
+  iron-wire/100
 ] 
 research: {
   parent: assembler2
