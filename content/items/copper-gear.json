@@ -8,7 +8,7 @@ hardness: 1
 color: FF9D87FF
 hiddenOnPlanets: [serpulo, erekir] 
 research: {
-  parent: mountainside
+  parent: iron-ore
   objectives: [
     copper-gear
   ]
