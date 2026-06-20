@@ -14,9 +14,10 @@ requirements: [
 category: distribution
 squareSprite: true
 range: 4
-speed: 2
+speed: 4
 research: belt
 requiresUnlock: false
 researchCost: [
   wood/0
 ]
+itemCapacity: 5
