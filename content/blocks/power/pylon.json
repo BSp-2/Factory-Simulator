@@ -8,7 +8,7 @@ category: power
 
 
 requirements: [
-  copper-wire/20
+  copper-wire/10
   iron-plate/20
 ]
 
