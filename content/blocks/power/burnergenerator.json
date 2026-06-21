@@ -11,6 +11,7 @@ requirements: [
   iron-plate/20
   glass-panes/40
 ]
+buildTime: 120
 
 
 consumes: {
@@ -20,7 +21,7 @@ consumes: {
 }
 
 
-powerProduction: 2
+powerProduction: 3
 itemDuration: 120
 generateEffect: generatespark
 ambientSound: smelter
