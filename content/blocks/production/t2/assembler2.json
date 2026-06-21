@@ -10,6 +10,7 @@ hasPower: true
 hasLiquids: true
 squareSprite: false
 itemCapacity: 20
+buildTime: 180
 
 
 jsonRecipes: [
