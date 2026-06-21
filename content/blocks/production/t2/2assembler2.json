@@ -10,6 +10,7 @@ hasPower: true
 hasLiquids: true
 squareSprite: false
 itemCapacity: 20
+buildTime: 240
 
 
 jsonRecipes: [
@@ -59,7 +60,7 @@ jsonRecipes: [
 
 
 requirements: [
-  stone-bricks/360
+  stone-bricks/240
   copper-gear/160
   iron-plate/240
   iron-wire/100
