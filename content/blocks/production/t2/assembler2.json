@@ -31,7 +31,7 @@ jsonRecipes: [
         stone-bricks/3
       ]
     }
-    craftTime: 360
+    craftTime: 180
     alwaysUnlocked: true
   }
   {
@@ -51,7 +51,7 @@ jsonRecipes: [
         copper-gear/3
       ]
     }
-    craftTime: 360
+    craftTime: 180
     alwaysUnlocked: true
   }
   {
@@ -71,14 +71,14 @@ jsonRecipes: [
         iron-gear/3
       ]
     }
-    craftTime: 360
+    craftTime: 180
     alwaysUnlocked: true
   }
 ] 
 
 
 requirements: [
-  copper-wire/200
+  copper-wire/100
   iron-ingot/240
   iron-plate/120
   iron-wire/80
