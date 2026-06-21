@@ -77,7 +77,7 @@ jsonRecipes: [
 
 
 requirements: [
-  copper-gear/100
+  copper-wire/200
   iron-ingot/240
   iron-plate/120
   iron-wire/80
