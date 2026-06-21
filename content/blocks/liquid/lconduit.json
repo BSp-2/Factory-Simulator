@@ -21,7 +21,7 @@ rotBridgeReplacement: conduitbridge
 
 underBullets: true
 liquidPressure: 5
-liquidCapacity: 30
+liquidCapacity: 100
 
 
 research: mechanicalpump 
