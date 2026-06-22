@@ -32,7 +32,6 @@ jsonRecipes: [
     }
     craftTime: 300
     alwaysUnlocked: true
-	craftEffect: [pulverizeMedium, pulverizeMedium]
   }
   {
     name: goldingotrecipe
@@ -52,7 +51,6 @@ jsonRecipes: [
     }
     craftTime: 300
     alwaysUnlocked: true
-    craftEffect: [pulverizeMedium, pulverizeMedium]
   }
 ]
 
