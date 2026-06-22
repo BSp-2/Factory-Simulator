@@ -43,7 +43,7 @@ requirements: [
 
 
 research: {
-  parent: crystalgulf
+  parent: extruder3
 } 
 researchCost: [
   wood/0
