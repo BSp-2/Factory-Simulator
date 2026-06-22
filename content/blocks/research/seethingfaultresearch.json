@@ -1,0 +1,25 @@
+type: GenericCrafter
+buildVisibility: debugOnly
+inEditor: false
+name: Tier 4
+description: Tech required to unlock the next tier.
+researchCost: [
+  uranium-ingot/3000
+  fuel-rod/1500
+  reactor-core/500
+  resinite/3000
+  resinite-plate/2500
+  resinite-wire/2000
+  resinite-gear/1000
+  fibre-plate/1000
+  fibre-gear/500
+  titanium-ingot/3000
+  titanium-plate/2500
+  titanium-wire/2000
+  titanium-gear/1000
+  diamond-gem/2000
+  diamond-charm/500
+]
+research: {
+  parent: crystalgulf
+} 
