@@ -26,7 +26,7 @@ jsonRecipes: [
       ]
     }
     output: {
-      power: 10
+      power: 40
       liquids: [
         steam/2
       ] 
@@ -72,4 +72,9 @@ drawer: {
 } 
 
 
-research: burnergenerator
+research: {
+  parent: crystalgulf
+} 
+researchCost: [
+  wood/0
+]
