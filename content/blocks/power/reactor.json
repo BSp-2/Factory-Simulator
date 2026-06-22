@@ -5,6 +5,7 @@ size: 4
 category: power
 
 
+hasPower: true
 hasItems: true
 hasLiquids: true
 itemCapacity: 20
@@ -17,6 +18,7 @@ jsonRecipes: [
     name: reactorrecipe
     localizedName: Reactor Recipe
     input: {
+      power: 1.6666666666666666666666666
       items: [
         fuel-rod/2
       ]
@@ -25,7 +27,7 @@ jsonRecipes: [
       ]
     }
     output: {
-      power: 40
+      power: 41.666666666666666666666566
       liquids: [
         steam/2
       ] 
