@@ -56,7 +56,21 @@ drawer: {
     {
       type: DrawRegion
       suffix: -bottom
+    } 
+    {
+			type: DrawPistons
+			pistons: 1
+			sinScl: 18
+      suffix: -cutter1
     }
+    {
+			type: DrawPistons
+			pistons: 1
+			sinScl: 18
+      suffix: -cutter2
+			angleOffset: 90
+			sinOffset: 0
+		}
     {
       type: DrawDefault
     }
