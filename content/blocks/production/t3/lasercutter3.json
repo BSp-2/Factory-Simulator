@@ -29,7 +29,6 @@ jsonRecipes: [
     }
     craftTime: 60
     alwaysUnlocked: true
-    craftEffect: [pulverizeMedium, pulverizeMedium]
   }
 ]
 
