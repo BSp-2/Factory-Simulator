@@ -1,0 +1,10 @@
+captureWave: 1
+planet: xiliri
+sector: 2
+research: {
+  parent: crystalgulfresearch
+  objectives: [
+    mechanical-assembly
+  ] 
+} 
+difficulty: 1 
