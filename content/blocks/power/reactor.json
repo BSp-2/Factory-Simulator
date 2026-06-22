@@ -56,9 +56,9 @@ drawer: {
     }
     {
     type: drawLiquidTile
-    drawLiquid: water
+    drawLiquid: steam
     padding: 3
-    alpha: 0.7
+    alpha: 1
     }
     {
     type: DrawPlasma
