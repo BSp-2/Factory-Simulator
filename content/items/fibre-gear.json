@@ -1,0 +1,15 @@
+type: item
+name: Fibre gear
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+color: 62B5A4FF
+hiddenOnPlanets: [serpulo, erekir] 
+research: {
+  parent: fibre-plate
+  objectives: [
+    fibre-gear
+  ]
+}   
