@@ -12,3 +12,9 @@ gasColor: ffffffff
 gas: true
 blockReactive: false
 hiddenOnPlanets: [serpulo, erekir]
+research: {
+  parent: uranium-ore
+  objectives: [
+    steam
+  ]
+} 
