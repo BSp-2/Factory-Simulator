@@ -1,0 +1,15 @@
+type: item
+name: Titanium plate
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+color: 9F73BFFF
+hiddenOnPlanets: [serpulo, erekir] 
+research: {
+  parent: titanium-ingot
+  objectives: [
+    titanium-plate
+  ]
+}   
