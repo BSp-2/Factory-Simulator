@@ -1,0 +1,70 @@
+type: MultiCrafter
+name: Tier 3 Press
+description: Apllies huge pressure to items. 
+size: 3
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+liquidCapacity: 120
+buildTime: 120
+
+
+jsonRecipes: [
+  {
+    name: titaniumplaterecipe
+    localizedName: Titanium Plate
+    input: {
+      items: [
+       titanium-ingot/4
+      ]
+      liquids: [
+        water/0.75
+      ] 
+    }
+    output: {
+      items: [
+        titanium-plate/4
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  }
+  {
+    name: resiniteplaterecipe
+    localizedName: Resinite Plate
+    input: {
+      items: [
+        resinite/4
+      ]
+      liquids: [
+        water/0.75
+      ]
+    } 
+    output: {
+      items: [
+        resinite-plate/4
+      ] 
+    } 
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  } 
+] 
+
+
+requirements: [
+  stone-bricks/100
+  titanium-ingot/80
+  mechanical-assembly/20
+]
+research: {
+  parent: furnace3
+}
+researchCost: [
+  wood/0
+] 
