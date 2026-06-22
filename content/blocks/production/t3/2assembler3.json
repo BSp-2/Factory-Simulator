@@ -59,6 +59,7 @@ jsonRecipes: [
     alwaysUnlocked: true
     craftEffect: [pulverizeMedium, pulverizeMedium] 
   }
+  {
     name: diamondcharmrecipe
     localizedName: Diamond Charm
     input: {
