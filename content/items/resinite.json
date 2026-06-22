@@ -1,0 +1,15 @@
+type: item
+name: Resinite
+flammability: 0.5
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+color: 65A675FF
+hiddenOnPlanets: [serpulo, erekir] 
+research: {
+  parent: uranium-ore
+  objectives: [
+    resinite
+  ]
+}   
