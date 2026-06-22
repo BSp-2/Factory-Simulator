@@ -57,9 +57,7 @@ jsonRecipes: [
     localizedName: Resinite
     input: {
       liquids: [
-        resin/0.5
-      ]
-      liquids: [
+		resin/0.5
         water/1
       ]
     }
