@@ -1,0 +1,42 @@
+type: AttributeCrafter
+attribute: oil
+name: Resin Collector 
+description: Collects resin from crater formations in the environment. 
+size: 3
+
+
+hasLiquids: true
+hasPower: true
+liquidCapacity: 120
+buildTime: 240
+
+
+outputLiquid: resin/1
+
+
+consumes: {
+	power: 3
+}
+
+
+displayEfficiencyScale: 1
+baseEfficiency: 0
+minEfficiency: 9
+
+
+category: production
+
+
+requirements: [
+	stone-bricks/120
+  titanium-plate/100
+  mechanical-assembly/30
+]
+
+
+research: {
+  parent: crystalgulf
+}
+researchCost: [
+  wood/0
+]
