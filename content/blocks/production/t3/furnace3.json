@@ -1,0 +1,122 @@
+type: MultiCrafter
+name: Tier 3 Furnace
+description: Melts different resources into refined items. 
+size: 2
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+liquidCapacity: 120
+buildTime: 120
+
+
+jsonRecipes: [
+  {
+    name: uraniumingotrecipe
+    localizedName: Uranium Ingot
+    input: {
+      items: [
+        uranium-ore/5
+      ]
+      liquids: [
+        water/1
+      ]
+    }
+    output: {
+      items: [
+        uranium-ingot/5
+      ]
+    }
+    craftTime: 300
+    alwaysUnlocked: true
+  }
+  {
+    name: titaniumingotrecipe
+    localizedName: Titanium Ingot
+    input: {
+      items: [
+        titanium-ore/5
+      ]
+      liquids: [
+        water/1
+      ]
+    }
+    output: {
+      items: [
+        titanium-ingot/5
+      ]
+    }
+    craftTime: 300
+    alwaysUnlocked: true
+  }
+  {
+    name: resiniterecipe
+    localizedName: Resinite
+    input: {
+      liquids: [
+        resin/0.5
+      ]
+      liquids: [
+        water/1
+      ]
+    }
+    output: {
+      items: [
+        resinite/5
+      ]
+    }
+    craftTime: 300
+    alwaysUnlocked: true
+  }
+]
+
+
+requirements: [
+  stone-bricks/60
+  iron-wire/80
+  iron-gear/40
+]
+
+
+research: {
+  parent: crystalgulf
+} 
+researchCost: [
+  wood/0
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+			type: DrawCrucibleFlame
+			particleLife: 120
+			particleSize: 4
+			particleRad: 5
+			rotateScl: 1.25
+		}
+    {
+      type: DrawDefault
+    }
+    {
+	    type: DrawGlowRegion
+	    alpha: 1
+	    glowIntensity: 0.333
+	    color: FF6040FF
+	    suffix: -glow
+	    glowScale: 40
+	  }
+    {
+      type: DrawRegion
+      suffix: -top
+    } 
+  ]
+} 
