@@ -1,0 +1,157 @@
+type: MultiCrafter
+name: Tier 3 Extruder
+description: Elongates items into rods/wires. 
+size: 3
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+liquidCapacity: 180
+buildTime: 180
+
+
+jsonRecipes: [
+  {
+    name: fuelrodrecipe
+    localizedName: Fuel Rod
+    input: {
+      items: [
+        uranium-ingot/4
+      ]
+      liquids: [
+        water/0.5
+      ]
+    }
+    output: {
+      items: [
+        fuel-rod/4
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+  {
+    name: titaniumwirerecipe
+    localizedName: Titanium Wire
+    input: {
+      items: [
+        titanium-ingot/4
+      ]
+      liquids: [
+        water/1
+      ]
+    }
+    output: {
+      items: [
+        titanium-wire/4
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+  {
+    name: resinitewirerecipe
+    localizedName: Resinite Wire
+    input: {
+      items: [
+        resinite/4
+      ]
+      liquids: [
+        water/1
+      ]
+    }
+    output: {
+      items: [
+        resinite-wire/4
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+]
+
+
+requirements: [
+  stone-bricks/100
+  titanium-plate/60
+  resinite-plate/40
+  mechanical-assembly/20
+]
+
+
+research: {
+  parent: press3
+} 
+researchCost: [
+  wood/0
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 3
+      alpha: 1
+    }
+    {
+      type: DrawBubbles
+      fill: false
+      color: 4967B3FF
+      spread: 8
+	  }
+    {
+      type: DrawBubbles
+      fill: false
+      color: 5F82DAFF
+      spread: 6
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      spinSprite: true
+      rotateSpeed: 3
+      x: -2.5
+      y: 7.5
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      spinSprite: true
+      rotateSpeed: -3
+      x: -7.5
+      y: 2.5
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      spinSprite: true
+      rotateSpeed: -3
+      x: 7.5
+      y: -2.5
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      spinSprite: true
+      rotateSpeed: 3
+      x: 2.5
+      y: -7.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}  
