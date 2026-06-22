@@ -9,3 +9,9 @@ viscosity: 0.9
 temperature: 0
 blockReactive: false
 hiddenOnPlanets: [serpulo, erekir]
+research: {
+  parent: uranium-ore
+  objectives: [
+    resin
+  ]
+} 
