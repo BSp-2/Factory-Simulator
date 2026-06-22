@@ -1,0 +1,138 @@
+type: MultiCrafter
+name: Tier 3 Assembler
+description: Reconstructs items into more advanced products. 
+size: 2
+category: crafting
+
+
+hasItems: true
+hasPower: true
+hasLiquids: true
+squareSprite: false
+itemCapacity: 20
+liquidCapacity: 240
+buildTime: 180
+
+
+jsonRecipes: [
+  {
+    name: titaniumgearrecipe
+    localizedName: Titanium Gear
+    input: {
+	    power: 3
+      items: [
+        titanium-plate/3
+      ]
+      liquids: [
+        water/1.5
+      ] 
+    }
+    output: {
+      items: [
+        titanium-gear/3
+      ]
+    }
+    craftTime: 180
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+  {
+    name: resinitegearrecipe
+    localizedName: Resinite Gear
+    input: {
+	    power: 3
+      items: [
+        resinite-plate/3
+      ]
+      liquids: [
+        water/1.5
+      ] 
+    }
+    output: {
+      items: [
+        resinite-gear/3
+      ]
+    }
+    craftTime: 180
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+  {
+    name: fibregearrecipe
+    localizedName: Fibre Gear
+    input: {
+	    power: 3
+      items: [
+        fibre-plate/3
+      ]
+      liquids: [
+        water/2
+      ] 
+    }
+    output: {
+      items: [
+        fibre-gear/3
+      ]
+    }
+    craftTime: 180
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+] 
+
+
+requirements: [
+  stone-bricks/120
+  titanium-plate/80
+  resinite-wire/40
+  basic-circuit/40
+  mechanical-assembly/20
+]
+research: {
+  parent: extruder3
+}
+researchCost: [
+  wood/0
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 3
+      alpha: 1
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      x: -4.875
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      y: -4.875
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawRegion
+	    suffix: -roller1
+	  	y: 3
+			x: 3
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}  
