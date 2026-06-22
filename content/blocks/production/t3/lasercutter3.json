@@ -58,24 +58,17 @@ drawer: {
     } 
     {
 			type: DrawPistons
-			pistons: 1
+			sinMag: 9
 			sinScl: 18
       suffix: -cutter1
 			sinOffset: 0
     }
     {
 			type: DrawPistons
-			pistons: 1
+			sinMag: 9
 			sinScl: 18
       suffix: -cutter1
 			sinOffset: 60
-		}
-    {
-			type: DrawPistons
-			pistons: 1
-			sinScl: 18
-      suffix: -cutter1
-			sinOffset: 120
 		}
     {
       type: DrawDefault
