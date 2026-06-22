@@ -58,13 +58,6 @@ drawer: {
       suffix: -bottom
     }
     {
-			type: DrawCrucibleFlame
-			particleLife: 120
-			particleSize: 4
-			particleRad: 5
-			rotateScl: 1.25
-		}
-    {
       type: DrawDefault
     }
     {
