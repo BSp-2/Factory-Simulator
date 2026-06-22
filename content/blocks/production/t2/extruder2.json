@@ -9,6 +9,7 @@ hasItems: true
 hasPower: true
 squareSprite: false
 itemCapacity: 20
+liquidCapacity: 180
 buildTime: 180
 
 
@@ -31,6 +32,7 @@ jsonRecipes: [
     }
     craftTime: 240
     alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
   }
   {
     name: goldwirerecipe
@@ -50,7 +52,8 @@ jsonRecipes: [
     }
     craftTime: 240
     alwaysUnlocked: true
-}
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
 ]
 
 
