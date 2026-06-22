@@ -9,6 +9,7 @@ hasItems: true
 hasPower: true
 squareSprite: false
 itemCapacity: 20
+liquidCapacity: 120
 buildTime: 120
 
 
@@ -31,10 +32,11 @@ jsonRecipes: [
     }
     craftTime: 300
     alwaysUnlocked: true
+	craftEffect: [pulverizeMedium, pulverizeMedium]
   }
   {
     name: goldingotrecipe
-    localizedName: Glass
+    localizedName: Gold Ingot
     input: {
       items: [
         gold-ore/5
@@ -50,6 +52,7 @@ jsonRecipes: [
     }
     craftTime: 300
     alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
   }
 ]
 
