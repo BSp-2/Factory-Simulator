@@ -10,6 +10,7 @@ hasPower: true
 hasLiquids: true
 squareSprite: false
 itemCapacity: 20
+liquidCapacity: 180
 buildTime: 180
 
 
@@ -23,7 +24,7 @@ jsonRecipes: [
         stone-plates/3
       ]
       liquids: [
-        water/1.25
+        water/1
       ] 
     }
     output: {
@@ -33,6 +34,7 @@ jsonRecipes: [
     }
     craftTime: 180
     alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
   }
   {
     name: coppergearrecipe
@@ -53,6 +55,7 @@ jsonRecipes: [
     }
     craftTime: 180
     alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
   }
   {
     name: irongearrecipe
@@ -73,6 +76,7 @@ jsonRecipes: [
     }
     craftTime: 180
     alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
   }
 ] 
 
