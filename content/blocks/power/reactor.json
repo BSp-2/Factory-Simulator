@@ -1,0 +1,75 @@
+type: MultiCrafter
+name: Reactor
+description: Boils water from radioactive reactions. The steam can be then used for other purposes. 
+size: 4
+category: power
+
+
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemCapacity: 20
+liquidCapacity: 720
+buildTime: 480
+
+
+jsonRecipes: [
+  {
+    name: reactorrecipe
+    localizedName: Reactor Recipe
+    consumes: {
+      items: [
+        fuel-rod/2
+      ]
+      liquids: [
+        water/6
+      ]
+    }
+    output: {
+      power: 10
+      liquids: [
+        steam/2
+      ] 
+    } 
+    craftTime: 120
+    alwaysUnlocked: true
+  } 
+] 
+
+
+requirements: [
+  stone-bricks/360
+  titanium-plate/240
+  resinite-plate/200
+  basic-circuit/120
+  mechanical-assembly/60
+]
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: drawLiquidTile
+    drawLiquid: water
+    padding: 3
+    alpha: 0.7
+    }
+    {
+    type: DrawPlasma
+    plasmas: 4
+    plasma1: ffbb70
+    plasma2: ff6040
+    }
+    {
+    type: DrawDefault
+    }
+  ] 
+} 
+
+
+research: burnergenerator
