@@ -17,7 +17,7 @@ jsonRecipes: [
   {
     name: reactorrecipe
     localizedName: Reactor Recipe
-    consume: {
+    input: {
       items: [
         fuel-rod/2
       ]
