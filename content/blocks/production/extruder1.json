@@ -9,6 +9,7 @@ hasItems: true
 hasPower: true
 squareSprite: false
 itemCapacity: 20
+liquidCapacity: 120
 buildTime: 120
 
 
@@ -31,6 +32,7 @@ jsonRecipes: [
     }
     craftTime: 240
     alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
   }
 ]
 
