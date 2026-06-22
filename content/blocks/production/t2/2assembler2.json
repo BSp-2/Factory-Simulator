@@ -10,6 +10,7 @@ hasPower: true
 hasLiquids: true
 squareSprite: false
 itemCapacity: 20
+liquidCapacity: 240
 buildTime: 240
 
 
@@ -34,6 +35,7 @@ jsonRecipes: [
     }
     craftTime: 240
     alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
   }
   {
     name: mechanicalassemblyrecipe
@@ -55,6 +57,7 @@ jsonRecipes: [
     }
     craftTime: 240
     alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
   }
 ] 
 
