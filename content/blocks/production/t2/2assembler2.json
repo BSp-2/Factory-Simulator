@@ -99,7 +99,7 @@ drawer: {
     }
     {
       type: DrawRegion
-      suffix: -roller2
+      suffix: -roller1
       x: 3
       y: -11
       spinSprite: true
@@ -107,7 +107,7 @@ drawer: {
     }
     {
       type: DrawRegion
-      suffix: -roller3
+      suffix: -roller1
       x: 11
       y: -3
       spinSprite: true
@@ -115,7 +115,7 @@ drawer: {
     }
     {
       type: DrawRegion
-      suffix: -roller4
+      suffix: -roller1
       x: 11
       y: 3
       spinSprite: true
@@ -123,7 +123,7 @@ drawer: {
     }
     {
       type: DrawRegion
-      suffix: -roller5
+      suffix: -roller1
       x: 3
       y: 11
       spinSprite: true
@@ -131,7 +131,7 @@ drawer: {
     }
     {
       type: DrawRegion
-      suffix: -roller6
+      suffix: -roller1
       x: -3
       y: 11
       spinSprite: true
@@ -139,7 +139,7 @@ drawer: {
     }
     {
       type: DrawRegion
-      suffix: -roller7
+      suffix: -roller1
       x: -11
       y: 3
       spinSprite: true
@@ -147,7 +147,7 @@ drawer: {
     }
     {
       type: DrawRegion
-      suffix: -roller8
+      suffix: -roller1
       x: -11
       y: -3
       spinSprite: true
@@ -163,7 +163,7 @@ drawer: {
     }
     {
       type: DrawRegion
-	    suffix: -cog2
+	    suffix: -cog1
 	  	y: -3
 			x: 3
       spinSprite: true
@@ -171,7 +171,7 @@ drawer: {
     }
     {
       type: DrawRegion
-	    suffix: -cog3
+	    suffix: -cog1
 	  	y: 3
 			x: 3
       spinSprite: true
@@ -179,7 +179,7 @@ drawer: {
     }
     {
       type: DrawRegion
-	    suffix: -cog4
+	    suffix: -cog1
 	  	y: 3
 			x: -3
       spinSprite: true
