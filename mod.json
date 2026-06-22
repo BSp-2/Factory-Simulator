@@ -9,7 +9,7 @@ Currently in early dev. Not intended to be played just yet.
 '''
 subtitle: ?ploo
 minGameVersion: 158.1
-version: v1.0
+version: v2.0
 repo: BSp-2/Factory-Simulator
 dependencies: ["multicrafter"] 
 
@@ -45,8 +45,27 @@ contentOrder: [
     gold-ingot
     gold-plate
     gold-wire
+    uranium-ore
+    uranium-ingot
+    fuel-rod
+    reactor-core
+    resinite
+    resinite-plate
+    resinite-wire
+    resinite-gear
+    fibre-plate
+    fibre-gear
+    titanium-ore
+    titanium-ingot
+    titanium-plate
+    titanium-wire
+    titanium-gear
+    diamond
+    diamond-gem
+    diamond-charm
   #liquids
     steam
+    resin
   #env
     sttone
     sttonewall
@@ -87,11 +106,16 @@ contentOrder: [
     #drills
       pressurebore
       excavationdrill
+      resincollector
     #distribution 
       belt
       beltrouter
       beltbridge
       beltunloader
+      fibrebelt
+      fibrebeltrouter
+      fibrebeltbridge
+      fibrebeltunloader
     #liquid
       mechanicalpump
       lconduit
@@ -101,17 +125,24 @@ contentOrder: [
     #power
       burnergenerator
       pylon
+      reactor
     #factories
       cutter1
       press1
       furnace1
       extruder1
       cutter2
-      press2
       furnace2
+      press2
       extruder2
       assembler2
       2assembler2
+      furnace3
+      press3
+      extruder3
+      lasercutter3
+      assembler3
+      2assembler3
     #storage
       inyanga
       lcontainer
