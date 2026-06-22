@@ -9,6 +9,7 @@ hasItems: true
 hasLiquids: true
 squareSprite: false
 itemCapacity: 20
+liquidCapacity: 60
 buildTime: 60
 
 
@@ -28,6 +29,7 @@ jsonRecipes: [
     }
     craftTime: 120
     alwaysUnlocked: true 
+    craftEffect: [pulverizeMedium, pulverizeMedium]
   }
   {
     name: stoneslabsrecipe
@@ -44,6 +46,7 @@ jsonRecipes: [
     }
     craftTime: 120
     alwaysUnlocked: true 
+    craftEffect: [pulverizeMedium, pulverizeMedium]
   }
   {
     name: stoneplatesrecipe
@@ -63,6 +66,7 @@ jsonRecipes: [
     }
     craftTime: 120
     alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
     drawer: {
       type: DrawLiquidTile
       drawLiquid: water
@@ -88,6 +92,7 @@ jsonRecipes: [
     }
     craftTime: 300
     alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
     drawer: {
       type: DrawLiquidTile
       drawLiquid: water
