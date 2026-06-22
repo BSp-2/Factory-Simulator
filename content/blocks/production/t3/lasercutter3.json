@@ -68,7 +68,7 @@ drawer: {
 			sinMag: 9
 			sinScl: 18
       suffix: -cutter1
-			sinOffset: 60
+			sinOffset: 40
 		}
     {
       type: DrawDefault
