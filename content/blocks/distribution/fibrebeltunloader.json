@@ -1,0 +1,21 @@
+type: DirectionalUnloader
+name: Fibre belt unloader
+description: Unloads items to the front from the structures behind itself. Cannot unload from cores. Thrice as slow as a belt. 
+size: 1
+category: distribution
+requirements: [
+  fibre-gear/8
+  basic-circuit/4
+  mechanical-assembly/2
+]
+speed: 1
+
+
+regionRotated1: 1
+allowCoreUnload: false
+
+
+research: fibrebeltbridge
+researchCost: [
+  wood/0
+] 
