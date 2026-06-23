@@ -3,7 +3,7 @@ name: Belt router
 description: Distributes items equally in 3 directions. Can act as a sorter.
 regionRotated1: 1
 speed: 3
-itemCapacity: 4
+itemCapacity: 8
 size: 1
 health: 100
 requirements: [
