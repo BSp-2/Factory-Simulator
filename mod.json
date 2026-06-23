@@ -5,7 +5,6 @@ description:
 '''
 A recreation of a game called Factory Simulator.
 Requires multicrafter lib. 
-Currently in early dev. Not intended to be played just yet. 
 '''
 subtitle: ?ploo
 minGameVersion: 158.1
