@@ -1,0 +1,43 @@
+name: Slate vent
+type: SteamVent
+blendGroup: slate
+parent: slate
+attributes: {
+   oil: 1
+}
+
+
+effectSpacing: 15
+effect:{
+    type: MultiEffect
+    effects: [
+        {
+            type: ParticleEffect
+            lifetime: 120
+            sizeInterp: slope
+            length: 45
+            baseLength: 4
+            sizeFrom: 3
+            sizeTo: 6
+            colorFrom: 22262630
+            colorTo: 22262600
+            layer: 61.8
+            cone: 45
+            baseRotation: 30
+        }
+        {
+            type: ParticleEffect
+            lifetime: 90
+            sizeInterp: slope
+            length: 45
+            baseLength: 4
+            sizeFrom: 3
+            sizeTo: 6
+            colorFrom: 22262630
+            colorTo: 22262600
+            layer: 61.9
+            cone: 35
+            baseRotation: 30
+        }
+    ]
+}  
