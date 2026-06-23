@@ -99,8 +99,21 @@ contentOrder: [
     soilwall
     mossbush
     mosstree
+    deepslate
+    slate
+    deepslatewall
+    diamonddeposit
+    diamondcrystal
+    slatevent
+    scorchsoil
+    scorchsoilwall
+    scorchsoilvent
+    scorchbush
+    scorchtree
     coper-ore
     gold-ore
+    titaniumore
+    uranium
   #blocks
     #drills
       pressurebore
