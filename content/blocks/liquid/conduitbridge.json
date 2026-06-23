@@ -4,6 +4,7 @@ description: Allows for liquid to go over terrain/structures.
 size: 1
 health: 100
 range: 5
+liquidCapacity: 200
 solid: false
 
 
