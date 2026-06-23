@@ -2,6 +2,7 @@ type: TallBlock
 name: Diamond crystal
 variants: 2
 clipSize: 64
-shadowAlpha: 1
+shadowAlpha: 0.75
+shadowOffset: 0
 customShadow: true
 itemDtop: diamond
