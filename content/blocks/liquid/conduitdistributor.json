@@ -1,7 +1,7 @@
 type: LiquidRouter
 size: 2
 hasLiquids: true
-liquidCapacity: 1200
+liquidCapacity: 2000
 name: Conduit distributor
 description: Distributes liquids in 7 outputs equally. 
 category: liquid
