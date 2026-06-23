@@ -1,0 +1,12 @@
+type: MessageBlock
+name: Label
+description: Stores a message.
+size: 1
+requirements: [
+  wood/5
+]
+category: effect
+research: grassplains
+researchCost: [
+  wood/0
+]
