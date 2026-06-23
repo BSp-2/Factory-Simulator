@@ -8,7 +8,7 @@ requirements: [
   stone-plates/10
   copper-ingot/5
 ]
-speed: 4
+speed: 3
 
 
 regionRotated1: 1
