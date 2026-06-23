@@ -1,0 +1,22 @@
+type: DuctBridge
+name: Fibre belt bridge
+description: Transports items over structures.
+health: 100
+size: 1
+
+
+requirements: [
+  fibre-plate/6
+  basic-circuit/4
+] 
+
+
+category: distribution
+squareSprite: true
+range: 6
+speed: 1
+research: fibrebelt
+researchCost: [
+  wood/0
+]
+itemCapacity: 16
