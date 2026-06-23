@@ -1,0 +1,41 @@
+type: StackConveyor
+name: Fibre Belt
+description: Transports items way faster then the normal belt.
+speed: 0.0625
+itemCapacity: 16
+health: 100
+category: distribution
+
+
+requirements: [
+  fibre-plate/1
+  basic-circuit/1
+]   
+
+
+loadEffect: {
+  type: ParticleEffect
+  length: 3
+  particles: 6
+  line: true
+  strokeFrom: 1
+  strokeTo: 0.1
+}
+
+
+unloadEffect: {
+  type: ParticleEffect
+  length: 3
+  particles: 6
+  line: true
+  strokeFrom: 1
+  strokeTo: 0.1
+}
+
+
+research: {
+  parent: crystalgulf
+} 
+researchCost: [
+  wood/0
+] 
