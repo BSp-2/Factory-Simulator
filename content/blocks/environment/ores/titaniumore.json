@@ -1,0 +1,4 @@
+type: OreBlock
+name: Titanium
+itemDrop: titanium-ore
+variants: 3
