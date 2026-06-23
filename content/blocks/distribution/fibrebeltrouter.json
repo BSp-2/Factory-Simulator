@@ -6,8 +6,8 @@ speed: 0.333333333333333333333333333333333333
 size: 1
 health: 100
 requirements: [
-  fibre-gear/2
-  basic-circuit/4
+  fibre-gear/20
+  basic-circuit/40
 ]
 category: distribution
 squareSprite: true
