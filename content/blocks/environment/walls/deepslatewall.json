@@ -1,3 +1,4 @@
 type: StaticWall
 name: Deepslate wall
 variants: 2
+itemDrop: stone
