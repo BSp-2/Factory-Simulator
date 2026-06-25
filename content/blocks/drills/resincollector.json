@@ -45,6 +45,10 @@ researchCost: [
 drawer: {
 	type: DrawMulti
   drawers: [
+	  {
+	    type: DrawRegion
+	    suffix: -bottom
+    } 
     {
       type: DrawLiquidTile
       drawLiquid: resin
