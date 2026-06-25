@@ -1,0 +1,21 @@
+type: LiquidRouter
+size: 1
+hasLiquids: true
+liquidCapacity: 200
+name: Conduit router
+description: Distributes liquids in 3 outputs equally. 
+category: liquid
+
+
+requirements: [
+  stone-bricks/20
+  glass-panes/20
+  resinite-wire/10
+]
+
+
+liquidPadding: 3
+research: crystalgulf
+researchCost: [
+  wood/0
+] 
