@@ -8,12 +8,16 @@ Requires multicrafter lib.
 '''
 subtitle: ?ploo
 minGameVersion: 158.1
-version: v2.0
+version: v3.0
 repo: BSp-2/Factory-Simulator
 dependencies: ["multicrafter"] 
 
 
 contentOrder: [
+  #sectors
+    grassplains
+    mountainside
+    crystalgulf
   #planets 
     ceus
     xiliri
@@ -133,6 +137,7 @@ contentOrder: [
       lconduit
       conduitjunction
       conduitbridge
+      conduitrouter
       conduitdistributor
     #power
       burnergenerator
