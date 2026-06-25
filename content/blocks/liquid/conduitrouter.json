@@ -14,7 +14,7 @@ requirements: [
 ]
 
 
-liquidPadding: 3
+liquidPadding: 1
 research: crystalgulf
 researchCost: [
   wood/0
