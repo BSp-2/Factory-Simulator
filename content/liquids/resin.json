@@ -1,11 +1,11 @@
 type: Liquid
 name: Resin 
 description: Viscous mass of liquid resin. 
-color: 4CE600FF
+color: 306636
 explosiveness: 0
 flammability: 0.5
 heatCapacity: 0
-viscosity: 0.9
+viscosity: 0.95
 temperature: 0
 blockReactive: false
 hiddenOnPlanets: [serpulo, erekir]
