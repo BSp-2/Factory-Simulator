@@ -40,3 +40,19 @@ research: {
 researchCost: [
   wood/0
 ]
+
+
+drawer: {
+	type: DrawMulti
+  drawers: [
+    {
+      type: DrawLiquidTile
+      drawLiquid: resin
+      padding: 3
+      alpha: 1
+    }
+    {
+			type: DrawDefault
+		}
+  ]
+} 
