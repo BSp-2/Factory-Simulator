@@ -1,0 +1,15 @@
+type: item
+name: Obsidian plate
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+color: B129CCFF
+hiddenOnPlanets: [serpulo, erekir] 
+research: {
+  parent: redmetal-plate
+  objectives: [
+    obsidian-plate
+  ]
+}   
