@@ -18,6 +18,7 @@ contentOrder: [
     grassplains
     mountainside
     crystalgulf
+    seethingfault
   #planets 
     ceus
     xiliri
@@ -66,6 +67,24 @@ contentOrder: [
     diamond
     diamond-gem
     diamond-charm
+    tungsten-ore
+    tungsten-ingot
+    tungsten-plate
+    tungsten-wire
+    tungsten-gear
+    bluemetal-ore
+    bluemetal-gravel
+    bluemetal-ingot
+    bluemetal-plate
+    bluemetal-wire
+    redmetal-ore
+    redmetal-gravel
+    redmetal-ingot
+    redmetal-plate
+    redmetal-wire
+    obsidian-plate
+    obsidian-gear
+    advanced-mechanical-assembly
   #liquids
     steam
     resin
@@ -111,13 +130,19 @@ contentOrder: [
     slatevent
     scorchsoil
     scorchsoilwall
+    redmetaldeposit
     scorchsoilvent
     scorchbush
     scorchtree
+    breccia
+    brecciawall
+    bluemetaldeposit
+    brecciavent
     coper-ore
     goldore
     titaniumore
     uranium
+    tungstenore
   #blocks
     #drills
       pressurebore
@@ -160,6 +185,12 @@ contentOrder: [
       lasercutter3
       assembler3
       2assembler3
+      orecrusher4
+      furnace4
+      press4
+      extruder4
+      assembler4
+      2assembler4
     #storage
       inyanga
       lcontainer
