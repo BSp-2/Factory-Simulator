@@ -8,7 +8,7 @@ hardness: 1
 color: 4C7399FF
 hiddenOnPlanets: [serpulo, erekir] 
 research: {
-  parent: tungsten-ore
+  parent: tungsten-ingot
   objectives: [
     tungsten-plate
   ]
