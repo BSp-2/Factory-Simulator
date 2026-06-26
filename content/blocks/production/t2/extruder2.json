@@ -27,7 +27,7 @@ jsonRecipes: [
     }
     output: {
       items: [
-        iron-wire/4
+        iron-wire/8
       ]
     }
     craftTime: 240
@@ -47,7 +47,7 @@ jsonRecipes: [
     }
     output: {
       items: [
-        gold-wire/4
+        gold-wire/8
       ]
     }
     craftTime: 240
