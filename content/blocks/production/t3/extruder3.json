@@ -27,7 +27,7 @@ jsonRecipes: [
     }
     output: {
       items: [
-        fuel-rod/4
+        fuel-rod/8
       ]
     }
     craftTime: 240
@@ -47,7 +47,7 @@ jsonRecipes: [
     }
     output: {
       items: [
-        titanium-wire/4
+        titanium-wire/8
       ]
     }
     craftTime: 240
@@ -67,7 +67,7 @@ jsonRecipes: [
     }
     output: {
       items: [
-        resinite-wire/4
+        resinite-wire/8
       ]
     }
     craftTime: 240
