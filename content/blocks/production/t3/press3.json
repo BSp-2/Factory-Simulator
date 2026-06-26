@@ -27,7 +27,7 @@ jsonRecipes: [
     }
     output: {
       items: [
-        titanium-plate/4
+        titanium-plate/8
       ]
     }
     craftTime: 240
@@ -47,7 +47,7 @@ jsonRecipes: [
     } 
     output: {
       items: [
-        resinite-plate/4
+        resinite-plate/8
       ] 
     } 
     craftTime: 240
