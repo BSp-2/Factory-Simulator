@@ -27,7 +27,7 @@ jsonRecipes: [
     }
     output: {
       items: [
-        copper-wire/4
+        copper-wire/8
       ]
     }
     craftTime: 240
