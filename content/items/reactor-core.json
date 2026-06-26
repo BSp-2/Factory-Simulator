@@ -8,7 +8,7 @@ hardness: 1
 color: 4CE600FF
 hiddenOnPlanets: [serpulo, erekir] 
 research: {
-  parent: fuel-rod
+  parent: tungsten-ore
   objectives: [
     reactor-core
   ]
