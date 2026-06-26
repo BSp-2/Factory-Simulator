@@ -1,0 +1,10 @@
+captureWave: 1
+planet: xiliri
+sector: 3
+research: {
+  parent: seethingfaultresearch
+  objectives: [
+    fibre-gear
+  ] 
+} 
+difficulty: 1  
