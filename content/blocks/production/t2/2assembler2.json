@@ -30,7 +30,7 @@ jsonRecipes: [
     }
     output: {
       items: [
-        basic-circuit/2
+        basic-circuit/4
       ]
     }
     craftTime: 240
