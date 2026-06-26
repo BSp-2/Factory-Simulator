@@ -1,0 +1,87 @@
+type: MultiCrafter
+name: Tier 4 Ore Crusher
+description: Crushes more difficult to process ores into easily processable lumps. 
+size: 3
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+buildTime: 180
+
+
+jsonRecipes: [
+  {
+    name: bluemetalgravelrecipe
+    localizedName: Bluemetal Gravel
+    input: {
+      power: 2
+      items: [
+        bluemetal-ore/1
+      ]
+    }
+    output: {
+      items: [
+        bluemetal-gravel/1
+      ]
+    }
+    craftTime: 30
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  }
+  {
+    name: redmetalgravelrecipe
+    localizedName: Redmetal Gravel
+    input: {
+      power: 2
+      items: [
+        redmetal-ore/1
+      ]
+    }
+    output: {
+      items: [
+        redmetal-gravel/1
+      ]
+    }
+    craftTime: 30
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  }
+]
+
+
+requirements: [
+  stone-bricks/100
+  fibre-plate/40
+  mechanical-assembly/40
+]
+
+
+research: {
+  parent: seethingfault
+} 
+researchCost: [
+  wood/0
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    } 
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: -5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}  
