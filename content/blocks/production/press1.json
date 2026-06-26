@@ -24,7 +24,7 @@ jsonRecipes: [
     }
     output: {
       items: [
-        pressurized-wood/4
+        pressurized-wood/8
       ]
     }
     craftTime: 240
@@ -44,7 +44,7 @@ jsonRecipes: [
     } 
     output: {
       items: [
-        copper-plate/4
+        copper-plate/8
       ] 
     } 
     craftTime: 240
