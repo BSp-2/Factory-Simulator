@@ -27,7 +27,7 @@ jsonRecipes: [
     }
     output: {
       items: [
-        iron-plate/4
+        iron-plate/8
       ]
     }
     craftTime: 240
@@ -47,7 +47,7 @@ jsonRecipes: [
     } 
     output: {
       items: [
-        gold-plate/4
+        gold-plate/8
       ] 
     } 
     craftTime: 240
