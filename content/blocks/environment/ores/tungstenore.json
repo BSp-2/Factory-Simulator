@@ -1,0 +1,4 @@
+type: OreBlock
+name: Tungsten
+itemDrop: tungsten-ore
+variants: 3 
