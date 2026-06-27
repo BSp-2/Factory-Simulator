@@ -1,0 +1,24 @@
+type: GenericCrafter
+buildVisibility: debugOnly
+inEditor: false
+name: Tier 5
+description: Tech required to unlock the next tier.
+researchCost: [
+  tungsten-ingot/3000
+  tungsten-plate/2500
+  tungsten-wire/2000
+  tungsten-gear/1000
+  bluemetal-ingot/2500
+  bluemetal-plate/2000
+  bluemetal-wire/1500
+  redmetal-ingot/2500
+  redmetal-plate/2000
+  redmetal-wire/1500
+  obsidian-plate/2000
+  obsidian-gear/1000
+  advanced-mechanical-assembly/500
+  reactor-core/1000
+]
+research: {
+  parent: seethingfault
+} 
