@@ -1,0 +1,92 @@
+type: MultiCrafter
+name: Tier 4 Press
+description: Apllies huge pressure to items. 
+size: 3
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+liquidCapacity: 120
+buildTime: 120
+
+
+jsonRecipes: [
+  {
+    name: tungstenplaterecipe
+    localizedName: Tungsten Plate
+    input: {
+      items: [
+       tungsten-ingot/4
+      ]
+      liquids: [
+        water/0.75
+      ] 
+    }
+    output: {
+      items: [
+        tungsten-plate/8
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  }
+  {
+    name: bluemetalplaterecipe
+    localizedName: Bluemetal Plate
+    input: {
+      items: [
+        bluemetal-ingot/4
+      ]
+      liquids: [
+        water/0.75
+      ]
+    } 
+    output: {
+      items: [
+        bluemetal-plate/8
+      ] 
+    } 
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  } 
+  {
+    name: redmetalplaterecipe
+    localizedName: Redmetal Plate
+    input: {
+      items: [
+        redmetal-ingot/4
+      ]
+      liquids: [
+        water/0.75
+      ]
+    } 
+    output: {
+      items: [
+        redmetal-plate/8
+      ] 
+    } 
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  } 
+] 
+
+
+requirements: [
+  stone-bricks/120
+  tungsten-ingot/100
+  fibre-plate/30
+  mechanical-assembly/20
+  basic-circuit/10
+]
+research: {
+  parent: furnace4
+}
+researchCost: [
+  wood/0
+]  
