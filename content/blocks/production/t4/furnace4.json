@@ -58,6 +58,7 @@ jsonRecipes: [
     input: {
       items: [
         redmetal-gravel/5
+	  ] 
       liquids: [
         water/1
       ]
