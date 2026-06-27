@@ -20,7 +20,7 @@ jsonRecipes: [
     input: {
       power: 1.6666666666666666666666666
       items: [
-        fuel-rod/2
+        fuel-rod/4
       ]
       liquids: [
         water/6
