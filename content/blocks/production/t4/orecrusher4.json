@@ -62,7 +62,7 @@ requirements: [
 
 
 research: {
-  parent: seethingfault
+  parent: furnace4
 } 
 researchCost: [
   wood/0
