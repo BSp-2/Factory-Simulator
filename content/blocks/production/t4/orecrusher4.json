@@ -1,6 +1,6 @@
 type: MultiCrafter
 name: Tier 4 Ore Crusher
-description: Crushes more difficult to process ores into easily processable lumps. 
+description: Crushes ores into easy to process lumps. 
 size: 3
 category: crafting
 
@@ -54,6 +54,8 @@ jsonRecipes: [
 
 requirements: [
   stone-bricks/100
+  tungsten-ingot/80
+  tungsten-plate/60
   fibre-plate/40
   mechanical-assembly/40
 ]
