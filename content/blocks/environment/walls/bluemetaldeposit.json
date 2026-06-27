@@ -1,0 +1,3 @@
+type: StaticWall
+name: Bluemetal deposit
+itemDrop: bluemetal-ore
