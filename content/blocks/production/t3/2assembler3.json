@@ -16,35 +16,13 @@ buildTime: 240
 
 jsonRecipes: [
   {
-    name: reactorcorerecipe
-    localizedName: Reactor Core
-    input: {
-	    power: 3
-      items: [
-        copper-plate/4
-        fuel-rod/2
-      ]
-      liquids: [
-        water/2
-      ] 
-    }
-    output: {
-      items: [
-        reactor-core/2
-      ]
-    }
-    craftTime: 240
-    alwaysUnlocked: true
-    craftEffect: [pulverizeMedium, pulverizeMedium]
-  }
-  {
     name: fibreplaterecipe
     localizedName: Fibre Plate
     input: {
 	    power: 3
       items: [
-        titanium-plate/2
-        resinite-plate/2
+        titanium-plate/4
+        resinite-plate/4
       ]
       liquids: [
         water/2
@@ -52,7 +30,7 @@ jsonRecipes: [
     }
     output: {
       items: [
-        fibre-plate/4
+        fibre-plate/8
       ]
     }
     craftTime: 240
