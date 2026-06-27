@@ -1,0 +1,216 @@
+type: MultiCrafter
+name: Tier 4 Double Assembler
+description: Reconstructs multiple items into more advanced products. 
+size: 4
+category: crafting
+
+
+hasItems: true
+hasPower: true
+hasLiquids: true
+squareSprite: false
+itemCapacity: 20
+liquidCapacity: 360
+buildTime: 240
+
+
+jsonRecipes: [
+  {
+    name: obsidianplaterecipe
+    localizedName: Obsidian Plate
+    input: {
+	    power: 3
+      items: [
+        bluemetal-plate/4
+        redmetal-plate/4
+      ]
+      liquids: [
+        water/2
+      ] 
+    }
+    output: {
+      items: [
+        obsidian-plate/8
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  }
+  {
+    name: advancedmechanicalassemblyrecipe
+    localizedName: Advanced Mechanical Assembly
+    input: {
+	    power: 4
+      items: [
+        obsidian-gear/2
+        tungsten-wire/4
+      ]
+      liquids: [
+        water/2
+      ] 
+    }
+    output: {
+      items: [
+        advanced-mechanical-assembly/2
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  }
+  {
+    name: reactorcorerecipe
+    localizedName: Reactor Core
+    input: {
+	    power: 4
+      items: [
+        fuel-rod/4
+        tungsten-plate/4
+      ]
+      liquids: [
+        water/2
+      ] 
+    }
+    output: {
+      items: [
+        reactor-core/4
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+}
+] 
+
+
+requirements: [
+  stone-bricks/300
+  tungsten-plate/240
+  tungsten-gear/180
+  fibre-gear/100
+  basic-circuit/80
+  mechanical-assembly/40
+] 
+research: {
+  parent: assembler4
+}
+researchCost: [
+  wood/0
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 3
+      alpha: 1
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      x: -3
+      y: -11
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      x: 3
+      y: -11
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      x: 11
+      y: -3
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      x: 11
+      y: 3
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      x: 3
+      y: 11
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      x: -3
+      y: 11
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      x: -11
+      y: 3
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      x: -11
+      y: -3
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+	    suffix: -cog1
+	  	y: -3
+			x: -3
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+	    suffix: -cog1
+	  	y: -3
+			x: 3
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawRegion
+	    suffix: -cog1
+	  	y: 3
+			x: 3
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+	    suffix: -cog1
+	  	y: 3
+			x: -3
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}    
