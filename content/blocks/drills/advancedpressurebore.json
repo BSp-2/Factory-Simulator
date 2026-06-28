@@ -1,0 +1,54 @@
+type: beamDrill
+name: Advanced pressure bore
+description: Mines wall deposits with high pressure. 
+range: 3
+tier: 5
+size: 3
+optionalBoostIntensity: 4
+drillTime: 180
+ambientSound: drill
+ambientSoundVolume: 0.08
+hasLiquids: true
+
+
+drillMultipliers: {
+  wood: 3
+}
+
+
+consumes: {
+  liquid: water/0.5
+  liquids: {
+    liquids: [
+      steam/0.2
+    ]
+    optional: true
+    booster: true
+  }
+}
+category: production
+
+
+requirements: [
+  stone-bricks/160
+  tungsten-plate/100
+  fibre-plate/80
+  mechanical-assembly/40
+  basic-circuit/20
+]
+
+
+sparkColor: F2F9FFFF
+heatColor: FFFFFFFF
+boostHeatColor: DCC6C6FF
+sparks: 6
+sparkLife: 24
+sparkSpread: 30
+
+
+research: {
+  parent: seethingfault
+}
+researchCost: [
+  wood/0
+] 
