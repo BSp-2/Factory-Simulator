@@ -1,3 +1,4 @@
 type: StaticWall
 name: Breccia wall
 variants: 2
+itemDrop: stone
