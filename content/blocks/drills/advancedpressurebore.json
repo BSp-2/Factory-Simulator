@@ -1,7 +1,7 @@
 type: beamDrill
 name: Advanced pressure bore
 description: Mines wall deposits with high pressure. 
-range: 3
+range: 5
 tier: 5
 size: 3
 optionalBoostIntensity: 4
@@ -9,6 +9,7 @@ drillTime: 180
 ambientSound: drill
 ambientSoundVolume: 0.08
 hasLiquids: true
+hasPower: true
 
 
 drillMultipliers: {
@@ -17,6 +18,7 @@ drillMultipliers: {
 
 
 consumes: {
+  power: 1
   liquid: water/0.5
   liquids: {
     liquids: [
