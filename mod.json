@@ -146,6 +146,7 @@ contentOrder: [
   #blocks
     #drills
       pressurebore
+      advancedpressurebore
       excavationdrill
       resincollector
     #distribution 
