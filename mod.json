@@ -127,6 +127,7 @@ contentOrder: [
     deepslatewall
     diamonddeposit
     diamondcrystal
+    slateboulder
     slatevent
     scorchsoil
     scorchsoilwall
@@ -137,6 +138,7 @@ contentOrder: [
     breccia
     brecciawall
     bluemetaldeposit
+    brecciaboulder
     brecciavent
     coper-ore
     goldore
