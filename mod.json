@@ -8,7 +8,7 @@ Requires multicrafter lib.
 '''
 subtitle: ?ploo
 minGameVersion: 158.1
-version: v3.0
+version: v4.0
 repo: BSp-2/Factory-Simulator
 dependencies: ["multicrafter"] 
 
