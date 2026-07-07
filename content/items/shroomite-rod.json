@@ -1,0 +1,15 @@
+type: item
+name: Shroomite rod
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+color: 8C5146
+hiddenOnPlanets: [serpulo, erekir] 
+research: {
+  parent: shroomite-ingot
+  objectives: [
+    shroomite-rod
+  ]
+}  
