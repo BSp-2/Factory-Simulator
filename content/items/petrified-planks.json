@@ -1,0 +1,15 @@
+type: item
+name: Petrified planks
+flammability: 1
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+color: 3D7A99
+hiddenOnPlanets: [serpulo, erekir] 
+research: {
+  parent: petrified-wood
+  objectives: [
+    petrified-planks
+  ]
+}   
