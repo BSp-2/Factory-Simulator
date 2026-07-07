@@ -1,0 +1,15 @@
+type: item
+name: Trimetal ring
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+color: 99E673
+hiddenOnPlanets: [serpulo, erekir] 
+research: {
+  parent: trimetal-pipe
+  objectives: [
+    trimetal-ring
+  ]
+}  
