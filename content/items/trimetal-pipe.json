@@ -8,7 +8,7 @@ hardness: 1
 color: 99E673
 hiddenOnPlanets: [serpulo, erekir] 
 research: {
-  parent: trimetal-plate
+  parent: trimetal-rod
   objectives: [
     trimetal-pipe
   ] 
