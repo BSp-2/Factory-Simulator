@@ -1,0 +1,15 @@
+type: item
+name: Weird gear
+flammability: 0
+explosiveness: 10
+radioactivity: 0
+charge: 0
+hardness: 1
+color: 8C237B
+hiddenOnPlanets: [serpulo, erekir] 
+research: {
+  parent: weird-plate
+  objectives: [
+    weird-gear
+  ]
+}  
