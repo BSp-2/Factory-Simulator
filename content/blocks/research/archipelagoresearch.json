@@ -1,0 +1,44 @@
+type: GenericCrafter
+buildVisibility: debugOnly
+inEditor: false
+name: Tier 6
+description: Tech required to unlock the next tier.
+researchCost: [
+  petrified-wood/5000
+  petrified-planks/4000
+  pressurized-petrified-wood/4000
+  composite-plate/1000
+  energy-gem/4000
+  concentrated-energy-gem/3000
+  energy-core/1000
+  shroomite-ingot/5000
+  shroomite-plate/4000
+  shroomite-rod/4000
+  shroomite-pipe/3000
+  shroomite-gear/3000
+  osmium-ingot/5000
+  osmium-plate/4000
+  reinforced-osmium-plate/2000
+  osmium-rod/4000
+  osmium-pipe/3000
+  osmium-gear/3000
+  weird-ingot/5000
+  weird-plate/4000
+  weird-rod/4000
+  weird-pipe/3000
+  weird-gear/3000
+  trimetal-ingot/4000
+  trimetal-plate/3000
+  reinforced-trimetal-plate/2000
+  trimetal-rod/3000
+  trimetal-screw/2000
+  trimetal-pipe/2000
+  trimetal-ring/1000
+  trimetal-gear/2000
+  trimetal-mechanism/1000
+  advanced-energy-core/500
+  trimetal-reactor/500
+]
+research: {
+  parent: antideluvification
+}  
