@@ -5,7 +5,7 @@ explosiveness: 0
 radioactivity: 0
 charge: 0
 hardness: 1
-color: 99E673
+color: A0E673
 hiddenOnPlanets: [serpulo, erekir] 
 research: {
   parent: osmium-ingot
