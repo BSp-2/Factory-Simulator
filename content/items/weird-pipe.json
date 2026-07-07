@@ -8,7 +8,7 @@ hardness: 1
 color: 8C237B
 hiddenOnPlanets: [serpulo, erekir] 
 research: {
-  parent: weird-plate
+  parent: weird-rod
   objectives: [
     weird-pipe
   ]
