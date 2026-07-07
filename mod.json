@@ -85,6 +85,47 @@ contentOrder: [
     obsidian-plate
     obsidian-gear
     advanced-mechanical-assembly
+    petrified-wood
+    petrified-planks
+    petrified-pressurized-wood
+    composite-plate
+    energy-crystal
+    energy-gem
+    concentrated-energy-gem
+    energy-core
+    shroomite-ore
+    shroomite-gravel
+    shroomite-ingot
+    shroomite-plate
+    shroomite-pipe
+    shroomite-rod
+    shroomite-gear
+    osmium-ore
+    osmium-gravel
+    osmium-ingot
+    osmium-plate
+    reinforced-osmium-plate
+    osmium-pipe
+    osmium-rod
+    osmium-gear
+    weird-ore
+    weird-gravel
+    weird-ingot
+    weird-plate
+    weird-pipe
+    weird-rod
+    weird-gear
+    trimetal-ingot
+    trimetal-plate
+    reinforced-trimetal-plate
+    trimetal-pipe
+    trimetal-ring
+    trimetal-rod
+    trimetal-screw
+    trimetal-gear
+    trimetal-mechanism
+    advanced-energy-core
+    trimetal-reactor
   #liquids
     steam
     resin
@@ -183,9 +224,9 @@ contentOrder: [
       assembler2
       2assembler2
       furnace3
+      lasercutter3
       press3
       extruder3
-      lasercutter3
       assembler3
       2assembler3
       orecrusher4
@@ -194,6 +235,19 @@ contentOrder: [
       extruder4
       assembler4
       2assembler4
+      cutter5
+      orecrusher5
+      furnace5
+      lasercutter5
+      energyconcentrator5
+      press5
+      gearpress5
+      extruder5
+      rollingmachine5
+      triplesmelter5
+      assembler5
+      2assembler5
+      3assembler5
     #storage
       inyanga
       lcontainer
