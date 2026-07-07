@@ -6,7 +6,7 @@ description: Tech required to unlock the next tier.
 researchCost: [
   petrified-wood/5000
   petrified-planks/4000
-  pressurized-petrified-wood/4000
+  petrified-pressurized-wood/4000
   composite-plate/1000
   energy-gem/4000
   concentrated-energy-gem/3000
