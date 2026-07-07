@@ -1,0 +1,10 @@
+captureWave: 1
+planet: xiliri
+sector: 4
+research: {
+  parent: antideluvificationresearch
+  objectives: [
+    advanced-mechanical-assembly
+  ] 
+} 
+difficulty: 1  
