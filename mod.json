@@ -97,33 +97,33 @@ contentOrder: [
     shroomite-gravel
     shroomite-ingot
     shroomite-plate
-    shroomite-pipe
-    shroomite-rod
     shroomite-gear
+    shroomite-rod
+    shroomite-pipe
     osmium-ore
     osmium-gravel
     osmium-ingot
     osmium-plate
     reinforced-osmium-plate
-    osmium-pipe
-    osmium-rod
     osmium-gear
+    osmium-rod
+    osmium-pipe
     weird-ore
     weird-gravel
     weird-ingot
     weird-plate
-    weird-pipe
-    weird-rod
     weird-gear
+    weird-rod
+    weird-pipe
     trimetal-ingot
     trimetal-plate
     reinforced-trimetal-plate
-    trimetal-pipe
-    trimetal-ring
-    trimetal-rod
-    trimetal-screw
     trimetal-gear
     trimetal-mechanism
+    trimetal-rod
+    trimetal-screw
+    trimetal-pipe
+    trimetal-ring
     advanced-energy-core
     trimetal-reactor
   #liquids
