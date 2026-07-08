@@ -148,7 +148,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: water
+      drawLiquid: steam
       padding: 3
       alpha: 1
     }
