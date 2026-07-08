@@ -125,21 +125,9 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: water
+      drawLiquid: steam
       padding: 3
       alpha: 1
-    }
-    {
-      type: DrawBubbles
-      fill: false
-      color: 4967B3FF
-      spread: 8
-	  }
-    {
-      type: DrawBubbles
-      fill: false
-      color: 5F82DAFF
-      spread: 6
     }
     {
       type: DrawRegion
