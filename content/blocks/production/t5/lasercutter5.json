@@ -1,0 +1,89 @@
+type: MultiCrafter
+name: Tier 5 Laser Cutter
+description: Cuts crystals into refined gems. 
+size: 3
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+buildTime: 180
+
+
+jsonRecipes: [
+  {
+    name: energygemrecipe
+    localizedName: Energy Gem
+    input: {
+      power: 4
+      items: [
+        energy-crystal/1
+      ]
+    }
+    output: {
+      items: [
+        energy-gem/1
+      ]
+    }
+    craftTime: 60
+    alwaysUnlocked: true
+  }
+]
+
+
+requirements: [
+  stone-bricks/120
+  petrified-planks/80
+  fibre-plate/60
+  advanced-mechanical-assembly/40
+]
+
+
+research: {
+  parent: cutter5
+} 
+researchCost: [
+  wood/0
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    } 
+    {
+			type: DrawPistons
+			sinMag: 9
+			sinScl: 18
+      suffix: -cutter1
+			sinOffset: 0
+    }
+    {
+			type: DrawPistons
+			sinMag: 9
+			sinScl: 18
+      suffix: -cutter1
+			sinOffset: 40
+		}
+    {
+      type: DrawDefault
+    }
+    {
+	    type: DrawGlowRegion
+	    alpha: 1
+	    glowIntensity: 0.333
+	    color: FF6040FF
+	    suffix: -glow
+	    glowScale: 40
+	  }
+    {
+      type: DrawRegion
+      suffix: -top
+    } 
+  ]
+}  
