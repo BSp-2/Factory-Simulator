@@ -1,0 +1,114 @@
+type: MultiCrafter
+name: Tier 5  Gear Press
+description: Molds plates into gears. 
+size: 3
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+liquidCapacity: 120
+buildTime: 120
+
+
+jsonRecipes: [
+  {
+    name: shroomitegearrecipe
+    localizedName: Shroomite Gear
+    input: {
+      items: [
+       shroomite-plate/4
+      ]
+      liquids: [
+        steam/0.25
+      ] 
+    }
+    output: {
+      items: [
+        shroomite-gear/4
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  }
+  {
+    name: osmiumgearrecipe
+    localizedName: Osmium Gear
+    input: {
+      items: [
+        osmium-plate/4
+      ]
+      liquids: [
+        steam/0.25
+      ]
+    } 
+    output: {
+      items: [
+        osmium-gear/4
+      ] 
+    } 
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  } 
+  {
+    name: weirdgearrecipe
+    localizedName: Weird Gear
+    input: {
+      items: [
+        weird-plate/4
+      ]
+      liquids: [
+        steam/0.25
+      ]
+    } 
+    output: {
+      items: [
+        weird-gear/4
+      ] 
+    } 
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  } 
+  {
+    name: trimetalgearrecipe
+    localizedName: Trimetal Gear
+    input: {
+      items: [
+        trimetal-plate/4
+      ]
+      liquids: [
+        steam/0.5
+      ]
+    } 
+    output: {
+      items: [
+        trimetal-gear/4
+      ] 
+    } 
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  } 
+] 
+
+
+requirements: [
+  stone-bricks/140
+  petrified-planks/100
+  shroomite-plate/60
+  osmium-plate/60
+  weird-plate/60
+  fibre-plate/40
+  advanced-mechanical-assembly/40
+] 
+research: {
+  parent: press5
+}
+researchCost: [
+  wood/0
+]    
