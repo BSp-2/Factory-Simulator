@@ -121,6 +121,7 @@ drawer: {
       spinSprite: true
       rotateSpeed: 2
     }
+    {
       type: DrawRegion
       suffix: -roller1
       x: -12.25
