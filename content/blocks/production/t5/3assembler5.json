@@ -65,6 +65,23 @@ drawer: {
       suffix: -bottom
     }
     {
+			type: DrawPistons
+			sinMag: 26
+			sinScl: 18
+      suffix: -cutter1
+			sinOffset: 0
+			sides: 1
+    }
+    {
+			type: DrawPistons
+			sinMag: 26
+			sinScl: 18
+      suffix: -cutter1
+			sinOffset: 45
+			angleOffset: 90
+			sides: 1
+		} 
+    {
       type: DrawRegion
       suffix: -roller1
       x: -3
@@ -108,12 +125,20 @@ drawer: {
       type: DrawRegion
 	    suffix: -cog1
 	  	y: -3
-			x: 3
+		  x: 3
       spinSprite: true
       rotateSpeed: -2
     }
     {
       type: DrawDefault
     }
+    {
+	    type: DrawGlowRegion
+	    alpha: 1
+	    glowIntensity: 0.333
+	    color: 40BF00FF
+	    suffix: -glow
+	    glowScale: 40
+	  }
   ]
 }      
