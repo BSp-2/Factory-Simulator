@@ -1,0 +1,123 @@
+type: MultiCrafter
+name: Tier 5 Furnace
+description: Melts different resources into refined items. 
+size: 2
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+liquidCapacity: 120
+buildTime: 120
+
+
+jsonRecipes: [
+  {
+    name: shroomiteingotrecipe
+    localizedName: Shroomite Ingot
+    input: {
+      items: [
+        shroomite-gravel/5
+      ]
+      liquids: [
+        steam/0.5
+      ]
+    }
+    output: {
+      items: [
+        shroomite-ingot/5
+      ]
+    }
+    craftTime: 300
+    alwaysUnlocked: true
+  }
+  {
+    name: osmiumingotrecipe
+    localizedName: Osmium Ingot
+    input: {
+      items: [
+        osmium-gravel/5
+      ]
+      liquids: [
+        steam/0.5
+      ]
+    }
+    output: {
+      items: [
+        osmium-ingot/5
+      ]
+    }
+    craftTime: 300
+    alwaysUnlocked: true
+  }
+  {
+    name: weirdingotrecipe
+    localizedName: Weird Ingot
+    input: {
+      items: [
+        weird-gravel/5
+	  ] 
+      liquids: [
+        steam/0.5
+      ]
+    }
+    output: {
+      items: [
+        weird-ingot/5
+      ]
+    }
+    craftTime: 300
+    alwaysUnlocked: true
+  }
+]
+
+
+requirements: [
+  stone-bricks/100
+  petrified-planks/80
+  fibre-plate/40
+  advanced-mechanical-assembly/20
+]
+
+
+research: {
+  parent: orecrusher5
+} 
+researchCost: [
+  wood/0
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+			type: DrawCrucibleFlame
+			particleLife: 120
+			particleSize: 4
+			particleRad: 5
+			rotateScl: 1.25
+		}
+    {
+      type: DrawDefault
+    }
+    {
+	    type: DrawGlowRegion
+	    alpha: 1
+	    glowIntensity: 0.333
+	    color: FF6040FF
+	    suffix: -glow
+	    glowScale: 40
+	  }
+    {
+      type: DrawRegion
+      suffix: -top
+    } 
+  ]
+}  
