@@ -1,0 +1,114 @@
+type: MultiCrafter
+name: Tier 5 Press
+description: Apllies huge pressure to items. 
+size: 3
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+liquidCapacity: 120
+buildTime: 120
+
+
+jsonRecipes: [
+  {
+    name: shroomiteplaterecipe
+    localizedName: Shroomite Plate
+    input: {
+      items: [
+       shroomite-ingot/4
+      ]
+      liquids: [
+        steam/0.25
+      ] 
+    }
+    output: {
+      items: [
+        shroomite-plate/8
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  }
+  {
+    name: osmiumplaterecipe
+    localizedName: Osmium Plate
+    input: {
+      items: [
+        osmium-ingot/4
+      ]
+      liquids: [
+        steam/0.25
+      ]
+    } 
+    output: {
+      items: [
+        osmium-plate/8
+      ] 
+    } 
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  } 
+  {
+    name: weirdplaterecipe
+    localizedName: Weird Plate
+    input: {
+      items: [
+        weird-ingot/4
+      ]
+      liquids: [
+        steam/0.25
+      ]
+    } 
+    output: {
+      items: [
+        weird-plate/8
+      ] 
+    } 
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  } 
+  {
+    name: trimetalplaterecipe
+    localizedName: Trimetal Plate
+    input: {
+      items: [
+        trimetal-ingot/4
+      ]
+      liquids: [
+        steam/0.5
+      ]
+    } 
+    output: {
+      items: [
+        trimetal-plate/8
+      ] 
+    } 
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  } 
+] 
+
+
+requirements: [
+  stone-bricks/140
+  petrified-planks/100
+  shroomite-ingot/60
+  osmium-ingot/60
+  weird-ingot/60
+  fibre-plate/40
+  advanced-mechanical-assembly/40
+] 
+research: {
+  parent: furnace5
+}
+researchCost: [
+  wood/0
+]   
