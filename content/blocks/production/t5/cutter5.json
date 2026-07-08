@@ -1,0 +1,72 @@
+type: MultiCrafter
+name: Tier 5 Cutter
+description: Cuts different resources into smaller pieces. 
+size: 2
+category: crafting
+
+
+hasItems: true
+hasLiquids: true
+squareSprite: false
+itemCapacity: 20
+liquidCapacity: 120
+buildTime: 120
+
+
+jsonRecipes: [
+  {
+    name: petrifiedplanksrecipe
+    localizedName: Petrified Planks
+    input: {
+      items: [
+        petrified-wood/2
+      ]
+    }
+    output: {
+      items: [
+        petrified-planks/4
+      ]
+    }
+    craftTime: 120
+    alwaysUnlocked: true 
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  } 
+]
+
+
+requirements: [
+  stone-bricks/80
+  fibre-plate/40
+  advanced-mechanical-assembly/10
+]
+
+
+research: {
+  parent: antideluvification
+} 
+researchCost: [
+  wood/0
+]
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRecipe
+    } 
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: -2.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
