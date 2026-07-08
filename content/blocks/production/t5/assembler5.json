@@ -1,0 +1,181 @@
+type: MultiCrafter
+name: Tier 5 Assembler
+description: Reconstructs items into more advanced products. 
+size: 2
+category: crafting
+
+
+hasItems: true
+hasPower: true
+hasLiquids: true
+squareSprite: false
+itemCapacity: 20
+liquidCapacity: 240
+buildTime: 180
+
+
+jsonRecipes: [
+  {
+    name: reinforcedosmiumplaterecipe
+    localizedName: Reinforced Osmium Plate
+    input: {
+	    power: 3
+      items: [
+        osmium-plate/3
+      ]
+      liquids: [
+        steam/0.5
+      ] 
+    }
+    output: {
+      items: [
+        reinforced-osmium-plate/3
+      ]
+    }
+    craftTime: 180
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+  {
+    name: reinforcedtrimetalplaterecipe
+    localizedName: Reinforced Trimetal Plate
+    input: {
+	    power: 3
+      items: [
+        trimetal-plate/3
+      ]
+      liquids: [
+        steam/0.5
+      ] 
+    }
+    output: {
+      items: [
+        reinforced-trimetal-plate/3
+      ]
+    }
+    craftTime: 180
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+  {
+    name: trimetalmechanismrecipe
+    localizedName: Trimetal Mechanism
+    input: {
+	    power: 3
+      items: [
+        trimetal-gear/3
+      ]
+      liquids: [
+        steam/0.5
+      ] 
+    }
+    output: {
+      items: [
+        trimetal-mechanism/3
+      ]
+    }
+    craftTime: 180
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+  {
+    name: trimetalscrewrecipe
+    localizedName: Trimetal Screw
+    input: {
+	    power: 3
+      items: [
+        trimetal-rod/3
+      ]
+      liquids: [
+        steam/0.5
+      ] 
+    }
+    output: {
+      items: [
+        trimetal-screw/3
+      ]
+    }
+    craftTime: 180
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  } 
+  {
+    name: trimetalringrecipe
+    localizedName: Trimetal Ring
+    input: {
+	    power: 3
+      items: [
+        trimetal-rod/3
+      ]
+      liquids: [
+        steam/0.5
+      ] 
+    }
+    output: {
+      items: [
+        trimetal-ring/3
+      ]
+    }
+    craftTime: 180
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+] 
+
+
+requirements: [
+  stone-bricks/160
+  trimetal-gear/60
+  trimetal-pipe/60
+  fibre-gear/40
+  basic-circuit/40
+  advanced-mechanical-assembly/20
+]
+research: {
+  parent: extruder4
+}
+researchCost: [
+  wood/0
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 3
+      alpha: 1
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      x: -4.875
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      y: -4.875
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawRegion
+	    suffix: -roller1
+	  	y: 3
+			x: 3
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}    
