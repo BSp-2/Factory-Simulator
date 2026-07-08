@@ -148,5 +148,17 @@ drawer: {
     {
       type: DrawDefault
     }
+    {
+	    type: DrawGlowRegion
+	    alpha: 1
+	    glowIntensity: 0.333
+	    color: 40BF00FF
+	    suffix: -glow
+	    glowScale: 40
+	}
+    {
+		type: DrawRegion
+		suffix: -top
+	} 
   ]
 }      
