@@ -1,0 +1,180 @@
+type: MultiCrafter
+name: Tier 5 Extruder
+description: Elongates items into rods/wires. 
+size: 3
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+liquidCapacity: 180
+buildTime: 180
+
+
+jsonRecipes: [
+  {
+    name: shroomiterodrecipe
+    localizedName: Shroomite Rod
+    input: {
+      items: [
+        shroomite-ingot/4
+      ]
+      liquids: [
+        steam/0.25
+      ]
+    }
+    output: {
+      items: [
+        shroomite-rod/8
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+  {
+    name: osmiumrodrecipe
+    localizedName: Osmium Rod
+    input: {
+      items: [
+        osmium-ingot/4
+      ]
+      liquids: [
+        steam/0.25
+      ]
+    }
+    output: {
+      items: [
+        osmium-rod/8
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+  {
+    name: weirdrodrecipe
+    localizedName: Weird Rod
+    input: {
+      items: [
+        weird-ingot/4
+      ]
+      liquids: [
+        steam/0.25
+      ]
+    }
+    output: {
+      items: [
+        weird-rod/8
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+  {
+    name: trimetalrodrecipe
+    localizedName: Trimetal Rod
+    input: {
+      items: [
+        trimetal-ingot/4
+      ]
+      liquids: [
+        steam/0.5
+      ]
+    }
+    output: {
+      items: [
+        trimetal-rod/8
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+]
+
+
+requirements: [
+  stone-bricks/160
+  petrified-planks/120
+  shroomite-plate/60
+  osmium-plate/60
+  weird-plate/60
+  fibre-plate/60
+  advanced-mechanical-assembly/20
+]
+
+
+research: {
+  parent: furnace5
+} 
+researchCost: [
+  wood/0
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padding: 3
+      alpha: 1
+    }
+    {
+      type: DrawBubbles
+      fill: false
+      color: 4967B3FF
+      spread: 8
+	  }
+    {
+      type: DrawBubbles
+      fill: false
+      color: 5F82DAFF
+      spread: 6
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      spinSprite: true
+      rotateSpeed: 3
+      x: -2.5
+      y: 7.5
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      spinSprite: true
+      rotateSpeed: -3
+      x: -7.5
+      y: 2.5
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      spinSprite: true
+      rotateSpeed: -3
+      x: 7.5
+      y: -2.5
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      spinSprite: true
+      rotateSpeed: 3
+      x: 2.5
+      y: -7.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}    
