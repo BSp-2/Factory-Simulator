@@ -6,10 +6,8 @@ category: crafting
 
 
 hasItems: true
-hasLiquids: true
 squareSprite: false
 itemCapacity: 20
-liquidCapacity: 120
 buildTime: 120
 
 
@@ -56,9 +54,6 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
-    {
-      type: DrawRecipe
-    } 
     {
       type: DrawRegion
       suffix: -rotator
