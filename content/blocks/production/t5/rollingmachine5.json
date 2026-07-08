@@ -1,0 +1,168 @@
+type: MultiCrafter
+name: Tier 5 Rolling Machine
+description: Molds rods into pipes. 
+size: 3
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+liquidCapacity: 180
+buildTime: 180
+
+
+jsonRecipes: [
+  {
+    name: shroomitepiperecipe
+    localizedName: Shroomite Pipe
+    input: {
+      items: [
+        shroomite-rod/4
+      ]
+      liquids: [
+        steam/0.25
+      ]
+    }
+    output: {
+      items: [
+        shroomite-pipe/4
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+  {
+    name: osmiumpiperecipe
+    localizedName: Osmium Pipe
+    input: {
+      items: [
+        osmium-rod/4
+      ]
+      liquids: [
+        steam/0.25
+      ]
+    }
+    output: {
+      items: [
+        osmium-pipe/4
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+  {
+    name: weirdpiperecipe
+    localizedName: Weird Pipe
+    input: {
+      items: [
+        weird-rod/4
+      ]
+      liquids: [
+        steam/0.25
+      ]
+    }
+    output: {
+      items: [
+        weird-pipe/4
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+  {
+    name: trimetalpiperecipe
+    localizedName: Trimetal Pipe
+    input: {
+      items: [
+        trimetal-rod/4
+      ]
+      liquids: [
+        steam/0.5
+      ]
+    }
+    output: {
+      items: [
+        trimetal-pipe/4
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium]
+  }
+]
+
+
+requirements: [
+  stone-bricks/160
+  petrified-planks/120
+  shroomite-rod/60
+  osmium-rod/60
+  weird-rod/60
+  fibre-plate/60
+  advanced-mechanical-assembly/20
+]
+
+
+research: {
+  parent: extruder5
+} 
+researchCost: [
+  wood/0
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: steam
+      padding: 3
+      alpha: 1
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      spinSprite: true
+      rotateSpeed: 3
+      x: 1
+      y: 7
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      spinSprite: true
+      rotateSpeed: -3
+      x: 7
+      y: 1
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      spinSprite: true
+      rotateSpeed: -3
+      x: 1
+      y: -7
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      spinSprite: true
+      rotateSpeed: 3
+      x: -7
+      y: 1
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}    
