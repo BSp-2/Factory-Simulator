@@ -1,0 +1,92 @@
+type: MultiCrafter
+name: Tier 5 Energy Concentrator
+description: Concentrates gems into denser structures. 
+size: 3
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+buildTime: 180
+
+
+jsonRecipes: [
+  {
+    name: concentratedenergygemrecipe
+    localizedName: Concentrated Energy Gem
+    input: {
+      power: 6
+      items: [
+        energy-gem/2
+      ]
+    }
+    output: {
+      items: [
+        concentrated-energy-gem/1
+      ]
+    }
+    craftTime: 120
+    alwaysUnlocked: true
+  }
+]
+
+
+requirements: [
+  stone-bricks/160
+  petrified-planks/120
+  shroomite-rod/80
+  osmium-rod/80
+  weird-rod/80
+  fibre-plate/80
+  advanced-mechanical-assembly/40
+]
+
+
+research: {
+  parent: lasercutter5
+} 
+researchCost: [
+  wood/0
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    } 
+    {
+			type: DrawPistons
+			sinMag: 9
+			sinScl: 18
+      suffix: -cutter1
+			sinOffset: 0
+    }
+    {
+			type: DrawPistons
+			sinMag: 9
+			sinScl: 18
+      suffix: -cutter1
+			sinOffset: 40
+		}
+    {
+      type: DrawDefault
+    }
+    {
+	    type: DrawGlowRegion
+	    alpha: 1
+	    glowIntensity: 0.333
+	    color: FF6040FF
+	    suffix: -glow
+	    glowScale: 40
+	  }
+    {
+      type: DrawRegion
+      suffix: -top
+    } 
+  ]
+}   
