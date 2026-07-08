@@ -132,7 +132,7 @@ requirements: [
   advanced-mechanical-assembly/20
 ]
 research: {
-  parent: extruder4
+  parent: triplesmelter5
 }
 researchCost: [
   wood/0
