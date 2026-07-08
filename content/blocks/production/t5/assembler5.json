@@ -105,7 +105,7 @@ jsonRecipes: [
     input: {
 	    power: 3
       items: [
-        trimetal-rod/3
+        trimetal-pipe/3
       ]
       liquids: [
         steam/0.5
