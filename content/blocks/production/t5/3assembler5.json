@@ -1,0 +1,119 @@
+type: MultiCrafter
+name: Tier 5 Triple Assembler
+description: Reconstructs multiple items into more advanced products. 
+size: 4
+category: crafting
+
+
+hasItems: true
+hasPower: true
+hasLiquids: true
+squareSprite: false
+itemCapacity: 20
+liquidCapacity: 360
+buildTime: 300
+
+
+jsonRecipes: [
+  {
+    name: trimetalreactorrecipe
+    localizedName: Trimetal Reactor
+    input: {
+	    power: 4
+      items: [
+        advanced-energy-core/2
+        trimetal-mechanism/4
+        trimetal-ring/4
+      ]
+      liquids: [
+        steam/2
+      ] 
+    }
+    output: {
+      items: [
+        trimetal-reactor/6
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  }
+] 
+
+
+requirements: [
+  stone-bricks/360
+  trimetal-mechanism/160
+  trimetal-ring/160
+  fibre-gear/120
+  basic-circuit/80
+  advanced-mechanical-assembly/60
+] 
+research: {
+  parent: 2assembler5
+}
+researchCost: [
+  wood/0
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      x: -3
+      y: -11
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      x: 3
+      y: -11
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      x: 11
+      y: -3
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawRegion
+      suffix: -roller1
+      x: 11
+      y: 3
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+	    suffix: -cog1
+	  	y: -3
+			x: -3
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+	    suffix: -cog1
+	  	y: -3
+			x: 3
+      spinSprite: true
+      rotateSpeed: -2
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}      
