@@ -1,0 +1,106 @@
+type: MultiCrafter
+name: Tier 5 Ore Crusher
+description: Crushes ores into easy to process lumps. 
+size: 3
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+buildTime: 180
+
+
+jsonRecipes: [
+  {
+    name: shroomitegravelrecipe
+    localizedName: Shroomite Gravel
+    input: {
+      power: 2
+      items: [
+        shroomite-ore/1
+      ]
+    }
+    output: {
+      items: [
+        shroomite-gravel/1
+      ]
+    }
+    craftTime: 30
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  }
+  {
+    name: osmiumgravelrecipe
+    localizedName: Osmium Gravel
+    input: {
+      power: 2
+      items: [
+        osmium-ore/1
+      ]
+    }
+    output: {
+      items: [
+        osmium-gravel/1
+      ]
+    }
+    craftTime: 30
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  }
+  {
+    name: weirdgravelrecipe
+    localizedName: Weird Gravel
+    input: {
+      power: 2
+      items: [
+        weird-ore/1
+      ]
+    }
+    output: {
+      items: [
+        weird-gravel/1
+      ]
+    }
+    craftTime: 30
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  }
+]
+
+
+requirements: [
+  stone-bricks/120
+  petrified-planks/80
+  fibre-plate/60
+  advanced-mechanical-assembly/20
+]
+
+
+research: {
+  parent: cutter5
+} 
+researchCost: [
+  wood/0
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    } 
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: -5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}   
