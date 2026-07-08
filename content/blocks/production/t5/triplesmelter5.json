@@ -1,0 +1,93 @@
+type: MultiCrafter
+name: Tier 5 Triple Smelter
+description: Smelts multiple resources into alloys. 
+size: 3
+category: crafting
+
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 30
+liquidCapacity: 120
+buildTime: 120
+
+
+jsonRecipes: [
+  {
+    name: trimetalingotrecipe
+    localizedName: Trimetal Ingot
+    input: {
+      items: [
+        shroomite-ingot/5
+        osmium-ingot/5
+        weird-ingot/5
+      ]
+      liquids: [
+        steam/0.5
+      ]
+    }
+    output: {
+      items: [
+        trimetal-ingot/15
+      ] 
+    }
+    craftTime: 300
+    alwaysUnlocked: true
+  }
+]
+
+
+requirements: [
+  stone-bricks/160
+  petrified-planks/120
+  shroomite-gear/80
+  shroomite-pipe/80
+  osmium-gear/80
+  osmium-pipe/80
+  weird-gear/80
+  weird-pipe/80
+  fibre-plate/60
+  advanced-mechanical-assembly/40
+]
+
+
+research: {
+  parent: furnace5
+} 
+researchCost: [
+  wood/0
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+			type: DrawCrucibleFlame
+			particleLife: 180
+			particleSize: 6
+			particleRad: 10
+			rotateScl: 1.33
+		}
+    {
+      type: DrawDefault
+    }
+    {
+	    type: DrawGlowRegion
+	    alpha: 1
+	    glowIntensity: 0.333
+	    color: FF6040FF
+	    suffix: -glow
+	    glowScale: 40
+	  }
+    {
+      type: DrawRegion
+      suffix: -top
+    } 
+  ]
+}   
