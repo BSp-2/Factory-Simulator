@@ -1,0 +1,63 @@
+type: ConsumeGenerator
+name: Energy Cell
+description: Discharges energy crystals for power. 
+size: 3
+category: power
+squareSprite: true
+
+
+requirements: [
+  stone-bricks/100
+  petrified-planks/80
+  fibre-plate/40
+  advanced-mechanical-assembly/20
+]
+
+
+consumes: {
+  items: [
+    energy-gem/1
+  ]
+}
+
+
+powerProduction: 20
+ambientSound: loopSmelter
+ambientSoundVolume: 0.03
+hasItems: true
+hasPower: true
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+    {
+	    type: DrawGlowRegion
+	    alpha: 1
+	    glowIntensity: 0.6
+	    color: FF40BFFF
+	    suffix: -glow
+	    glowScale: 20
+	  }
+    {
+      type: DrawRegion
+      suffix: -top
+    } 
+  ]
+}
+
+
+research: {
+	parent: antideluvification
+} 
+researchCost: [
+	wood/0
+]
+	 
