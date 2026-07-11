@@ -15,6 +15,26 @@ buildTime: 120
 
 jsonRecipes: [
   {
+    name: petrifiedpressurizedwoodrecipe
+    localizedName: Petrified Pressurized Wood
+    input: {
+      items: [
+       petrified-planks/4
+      ]
+      liquids: [
+        steam/0.25
+      ] 
+    }
+    output: {
+      items: [
+        petrified-pressurized-wood/8
+      ]
+    }
+    craftTime: 240
+    alwaysUnlocked: true
+    craftEffect: [pulverizeMedium, pulverizeMedium] 
+  }
+  {
     name: shroomiteplaterecipe
     localizedName: Shroomite Plate
     input: {
