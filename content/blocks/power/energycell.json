@@ -22,6 +22,7 @@ consumes: {
 
 
 powerProduction: 20
+itemDuration: 120
 ambientSound: loopSmelter
 ambientSoundVolume: 0.03
 hasItems: true
@@ -42,7 +43,7 @@ drawer: {
 	    type: DrawGlowRegion
 	    alpha: 1
 	    glowIntensity: 0.6
-	    color: FF40BFFF
+	    color: F2F279
 	    suffix: -glow
 	    glowScale: 20
 	  }
