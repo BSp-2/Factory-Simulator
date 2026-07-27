@@ -83,8 +83,8 @@ jsonRecipes: [
 
 requirements: [
   copper-wire/100
-  iron-ingot/240
-  iron-plate/120
+  iron-ingot/120
+  iron-plate/80
   iron-wire/80
 ]
 research: {
