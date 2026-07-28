@@ -13,6 +13,8 @@ requirements: [
   resinite-wire/10
 ]
 
+underBullets: true 
+solid: false 
 
 liquidPadding: 1
 research: crystalgulf
